@@ -1,0 +1,160 @@
+2025-07-29 18:39:24,857 - INFO - === Starting Document Ingestion ===
+2025-07-29 18:50:55,330 - INFO - === Starting Document Ingestion ===
+2025-07-29 18:54:29,752 - CRITICAL - Fatal error: Traceback (most recent call last):
+  File "F:\Agentic RAG\Agentic-RAG-with-LangChain\ingest_in_db.py", line 104, in main
+    vector_store = SupabaseVectorStore(
+        client=supabase,
+    ...<4 lines>...
+        metadata_json_column="metadata"
+    )
+TypeError: SupabaseVectorStore.__init__() got an unexpected keyword argument 'text_key'
+
+2025-07-29 18:59:10,923 - INFO - === Starting Document Ingestion ===
+2025-07-29 18:59:12,549 - WARNING - No documents processed
+2025-07-29 20:41:56,715 - WARNING - invalid pdf header: b'Test '
+2025-07-29 20:41:56,716 - WARNING - EOF marker not found
+2025-07-29 20:41:56,716 - ERROR - Skipped test.pdf: Stream has ended unexpectedly
+2025-07-29 20:41:56,717 - INFO - Moved test.pdf to problematic_test.pdf
+2025-07-29 20:41:56,717 - WARNING - No documents processed
+2025-07-29 21:26:02,937 - INFO - Parsed Office Hours with Aaron Biner, 030325.pdf with 68 pages
+2025-07-29 21:26:03,985 - INFO - Parsed Office Hours with Aaron Biner, 031025.pdf with 32 pages
+2025-07-29 21:26:06,994 - INFO - Parsed Office Hours with Aaron Biner, 051925.pdf with 81 pages
+2025-07-29 21:26:09,441 - INFO - Parsed Office Hours with Zeus Shields, 032425.pdf with 80 pages
+2025-07-29 21:26:11,994 - INFO - Parsed Office Hours with Zeus Shields, 042224.pdf with 77 pages
+2025-07-29 21:26:14,001 - INFO - Parsed Office Hours, 01042023.pdf with 62 pages
+2025-07-29 21:26:15,391 - INFO - Parsed Office Hours, 010625.pdf with 41 pages
+2025-07-29 21:26:17,673 - INFO - Parsed Office Hours, 010824.pdf with 65 pages
+2025-07-29 21:26:20,224 - INFO - Parsed Office Hours, 011325.pdf with 82 pages
+2025-07-29 21:26:21,800 - INFO - Parsed Office Hours, 011524.pdf with 50 pages
+2025-07-29 21:26:22,814 - INFO - Parsed Office Hours, 01162023.pdf with 32 pages
+2025-07-29 21:26:24,082 - INFO - Parsed Office Hours, 012025.pdf with 39 pages
+2025-07-29 21:26:27,342 - INFO - Parsed Office Hours, 01232023.pdf with 105 pages
+2025-07-29 21:26:30,277 - INFO - Parsed Office Hours, 012324.pdf with 97 pages
+2025-07-29 21:26:31,667 - INFO - Parsed Office Hours, 012725.pdf with 45 pages
+2025-07-29 21:26:33,455 - INFO - Parsed Office Hours, 013023.pdf with 58 pages
+2025-07-29 21:26:35,855 - INFO - Parsed Office Hours, 013024.pdf with 81 pages
+2025-07-29 21:26:37,156 - INFO - Parsed Office Hours, 020325.pdf with 42 pages
+2025-07-29 21:26:38,425 - INFO - Parsed Office Hours, 020524.pdf with 41 pages
+2025-07-29 21:26:40,922 - INFO - Parsed Office Hours, 020623.pdf with 82 pages
+2025-07-29 21:26:42,549 - INFO - Parsed Office Hours, 021025.pdf with 52 pages
+2025-07-29 21:26:44,878 - INFO - Parsed Office Hours, 021224.pdf with 81 pages
+2025-07-29 21:26:47,546 - INFO - Parsed Office Hours, 02132023.pdf with 88 pages
+2025-07-29 21:26:48,598 - INFO - Parsed Office Hours, 021825.pdf with 32 pages
+2025-07-29 21:26:50,623 - INFO - Parsed Office Hours, 022024.pdf with 66 pages
+2025-07-29 21:26:52,732 - INFO - Parsed Office Hours, 02212023.pdf with 71 pages
+2025-07-29 21:26:53,846 - INFO - Parsed Office Hours, 022425.pdf with 34 pages
+2025-07-29 21:26:58,589 - INFO - Parsed Office Hours, 03062023.pdf with 131 pages
+2025-07-29 21:26:59,923 - INFO - Parsed Office Hours, 031224.pdf with 42 pages
+2025-07-29 21:27:01,200 - INFO - Parsed Office Hours, 031824.pdf with 43 pages
+2025-07-29 21:27:02,774 - INFO - Parsed Office Hours, 031825.pdf with 51 pages
+2025-07-29 21:27:04,513 - INFO - Parsed Office Hours, 032023.pdf with 56 pages
+2025-07-29 21:27:07,062 - INFO - Parsed Office Hours, 032524.pdf with 79 pages
+2025-07-29 21:27:09,624 - INFO - Parsed Office Hours, 032723.pdf with 82 pages
+2025-07-29 21:27:10,893 - INFO - Parsed Office Hours, 033125.pdf with 46 pages
+2025-07-29 21:27:13,582 - INFO - Parsed Office Hours, 040124.pdf with 89 pages
+2025-07-29 21:27:15,270 - INFO - Parsed Office Hours, 040423.pdf with 55 pages
+2025-07-29 21:27:17,795 - INFO - Parsed Office Hours, 040824.pdf with 85 pages
+2025-07-29 21:27:21,438 - INFO - Parsed Office Hours, 041524.pdf with 123 pages
+2025-07-29 21:27:24,203 - INFO - Parsed Office Hours, 041723.pdf with 90 pages
+2025-07-29 21:27:25,081 - INFO - Parsed Office Hours, 042423.pdf with 29 pages
+2025-07-29 21:27:26,314 - INFO - Parsed Office Hours, 042825.pdf with 39 pages
+2025-07-29 21:27:27,073 - INFO - Parsed Office Hours, 043024.pdf with 22 pages
+2025-07-29 21:27:28,882 - INFO - Parsed Office Hours, 050123.pdf with 61 pages
+2025-07-29 21:27:32,098 - INFO - Parsed Office Hours, 050525.pdf with 108 pages
+2025-07-29 21:27:34,479 - INFO - Parsed Office Hours, 050823.pdf with 81 pages
+2025-07-29 21:27:35,703 - INFO - Parsed Office Hours, 051225.pdf with 39 pages
+2025-07-29 21:27:38,218 - INFO - Parsed Office Hours, 051324.pdf with 86 pages
+2025-07-29 21:27:40,795 - INFO - Parsed Office Hours, 051523.pdf with 84 pages
+2025-07-29 21:27:43,453 - INFO - Parsed Office Hours, 052024.pdf with 86 pages
+2025-07-29 21:27:45,407 - INFO - Parsed Office Hours, 052223.pdf with 68 pages
+2025-07-29 21:27:46,630 - INFO - Parsed Office Hours, 052623.pdf with 40 pages
+2025-07-29 21:27:47,988 - INFO - Parsed Office Hours, 052824.pdf with 37 pages
+2025-07-29 21:27:48,852 - INFO - Parsed Office Hours, 053023.pdf with 29 pages
+2025-07-29 21:27:51,066 - INFO - Parsed Office Hours, 060225.pdf with 72 pages
+2025-07-29 21:27:53,698 - INFO - Parsed Office Hours, 060324.pdf with 86 pages
+2025-07-29 21:27:56,366 - INFO - Parsed Office Hours, 060523.pdf with 87 pages
+2025-07-29 21:27:58,989 - INFO - Parsed Office Hours, 061024.pdf with 89 pages
+2025-07-29 21:27:59,978 - INFO - Parsed Office Hours, 061025.pdf with 32 pages
+2025-07-29 21:28:01,954 - INFO - Parsed Office Hours, 061223.pdf with 65 pages
+2025-07-29 21:28:04,649 - INFO - Parsed Office Hours, 061625.pdf with 84 pages
+2025-07-29 21:28:05,885 - INFO - Parsed Office Hours, 061724.pdf with 38 pages
+2025-07-29 21:28:07,908 - INFO - Parsed Office Hours, 061923.pdf with 68 pages
+2025-07-29 21:28:09,649 - INFO - Parsed Office Hours, 062325.pdf with 55 pages
+2025-07-29 21:28:10,411 - INFO - Parsed Office Hours, 062424.pdf with 22 pages
+2025-07-29 21:28:11,783 - INFO - Parsed Office Hours, 063025.pdf with 44 pages
+2025-07-29 21:28:14,745 - INFO - Parsed Office Hours, 070124.pdf with 102 pages
+2025-07-29 21:28:17,744 - INFO - Parsed Office Hours, 070323.pdf with 97 pages
+2025-07-29 21:28:19,711 - INFO - Parsed Office Hours, 070824.pdf with 63 pages
+2025-07-29 21:28:21,192 - INFO - Parsed Office Hours, 071023.pdf with 48 pages
+2025-07-29 21:28:23,367 - INFO - Parsed Office Hours, 071524.pdf with 72 pages
+2025-07-29 21:28:25,590 - INFO - Parsed Office Hours, 071723.pdf with 73 pages
+2025-07-29 21:28:28,208 - INFO - Parsed Office Hours, 072224.pdf with 87 pages
+2025-07-29 21:28:29,744 - INFO - Parsed Office Hours, 072924.pdf with 48 pages
+2025-07-29 21:28:31,164 - INFO - Parsed Office Hours, 073123.pdf with 42 pages
+2025-07-29 21:28:33,764 - INFO - Parsed Office Hours, 080723.pdf with 83 pages
+2025-07-29 21:28:36,236 - INFO - Parsed Office Hours, 081224.pdf with 82 pages
+2025-07-29 21:28:38,475 - INFO - Parsed Office Hours, 081423.pdf with 72 pages
+2025-07-29 21:28:39,499 - INFO - Parsed Office Hours, 082024.pdf with 31 pages
+2025-07-29 21:28:40,857 - INFO - Parsed Office Hours, 082123.pdf with 44 pages
+2025-07-29 21:28:43,332 - INFO - Parsed Office Hours, 082624.pdf with 81 pages
+2025-07-29 21:28:45,212 - INFO - Parsed Office Hours, 082823.pdf with 54 pages
+2025-07-29 21:28:46,324 - INFO - Parsed Office Hours, 090324.pdf with 32 pages
+2025-07-29 21:28:48,397 - INFO - Parsed Office Hours, 090924.pdf with 67 pages
+2025-07-29 21:28:50,524 - INFO - Parsed Office Hours, 091123.pdf with 71 pages
+2025-07-29 21:28:53,619 - INFO - Parsed Office Hours, 091624.pdf with 103 pages
+2025-07-29 21:28:54,981 - INFO - Parsed Office Hours, 091823.pdf with 40 pages
+2025-07-29 21:28:56,693 - INFO - Parsed Office Hours, 092324.pdf with 54 pages
+2025-07-29 21:28:58,245 - INFO - Parsed Office Hours, 092523.pdf with 47 pages
+2025-07-29 21:29:00,193 - INFO - Parsed Office Hours, 093024.pdf with 63 pages
+2025-07-29 21:29:01,298 - INFO - Parsed Office Hours, 100724.pdf with 33 pages
+2025-07-29 21:29:03,245 - INFO - Parsed Office Hours, 101424.pdf with 55 pages
+2025-07-29 21:29:05,120 - INFO - Parsed Office Hours, 102124.pdf with 58 pages
+2025-07-29 21:29:07,357 - INFO - Parsed Office Hours, 10223.pdf with 73 pages
+2025-07-29 21:29:08,298 - INFO - Parsed Office Hours, 102423.pdf with 29 pages
+2025-07-29 21:29:09,406 - INFO - Parsed Office Hours, 102824.pdf with 34 pages
+2025-07-29 21:29:11,172 - INFO - Parsed Office Hours, 10923.pdf with 55 pages
+2025-07-29 21:29:13,078 - INFO - Parsed Office Hours, 110424.pdf with 60 pages
+2025-07-29 21:29:14,739 - INFO - Parsed Office Hours, 111124.pdf with 54 pages
+2025-07-29 21:29:15,912 - INFO - Parsed Office Hours, 111824.pdf with 34 pages
+2025-07-29 21:29:17,402 - INFO - Parsed Office Hours, 112023.pdf with 47 pages
+2025-07-29 21:29:19,041 - INFO - Parsed Office Hours, 112524.pdf with 53 pages
+2025-07-29 21:29:21,257 - INFO - Parsed Office Hours, 112723.pdf with 71 pages
+2025-07-29 21:29:24,302 - INFO - Parsed Office Hours, 11823.pdf with 95 pages
+2025-07-29 21:29:26,327 - INFO - Parsed Office Hours, 120224.pdf with 65 pages
+2025-07-29 21:29:29,552 - INFO - Parsed Office Hours, 120423.pdf with 112 pages
+2025-07-29 21:29:31,597 - INFO - Parsed Office Hours, 120924.pdf with 66 pages
+2025-07-29 21:29:33,656 - INFO - Parsed Office Hours, 12112023.pdf with 61 pages
+2025-07-29 21:29:36,013 - INFO - Parsed Office Hours, 121624.pdf with 79 pages
+2025-07-29 21:29:38,376 - INFO - Parsed Office Hours, 121823.pdf with 76 pages
+2025-07-29 21:29:40,808 - INFO - Parsed Office Hours, 2272023.pdf with 82 pages
+2025-07-29 21:29:47,320 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-29 21:29:52,742 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-29 21:29:57,152 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-29 21:30:03,689 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-29 21:30:05,400 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-07-29 21:30:05,400 - INFO - Retrying request to /embeddings in 5.843000 seconds
+2025-07-29 21:30:16,352 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-29 21:30:17,856 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-07-29 21:30:17,856 - INFO - Retrying request to /embeddings in 10.853000 seconds
+2025-07-29 21:30:33,639 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-29 21:30:35,126 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-07-29 21:30:35,126 - INFO - Retrying request to /embeddings in 11.159000 seconds
+2025-07-29 21:30:52,496 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-29 21:30:53,920 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-29 21:31:05,893 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:31:19,941 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:31:31,039 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:31:42,226 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:31:53,040 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:32:03,101 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:32:14,555 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:32:24,741 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:32:37,839 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:32:49,655 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:33:01,625 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:33:11,533 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:33:22,048 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:33:33,194 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:33:35,451 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22embedding%22%2C%22id%22%2C%22content%22%2C%22metadata%22 "HTTP/2 201 Created"
+2025-07-29 21:33:35,696 - INFO - Successfully ingested 7055 document chunks
+2025-07-29 21:33:35,696 - INFO - Ingestion complete. Verify at supabase.com

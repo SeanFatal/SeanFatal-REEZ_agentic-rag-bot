@@ -1,0 +1,1561 @@
+2025-07-30 08:04:45,870 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:07:22,252 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:07:22,316 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.default_user&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 08:07:22,683 - ERROR - Unexpected error for 'How will we invest in continuous training and skills development for our team?': variable chat_history should be a list of base messages, got No previous chat history. of type <class 'str'>
+2025-07-30 08:07:22,920 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:07:37,233 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 08:07:37,262 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:07:37,334 - ERROR - Unexpected error for 'How will we invest in continuous training and skills development for our team?': variable chat_history should be a list of base messages, got No previous chat history. of type <class 'str'>
+2025-07-30 08:07:37,580 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:14:33,529 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:25:03,755 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:25:19,403 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:25:23,735 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:25:23,840 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 08:25:25,975 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:25:26,857 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:25:27,145 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 400 Bad Request"
+2025-07-30 08:25:27,146 - ERROR - Database query error for query 'continuous training and skills development': {'message': 'column reference "id" is ambiguous', 'code': '42702', 'hint': None, 'details': 'It could refer to either a PL/pgSQL variable or a table column.'}
+2025-07-30 08:25:27,897 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:25:28,838 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:25:29,099 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 400 Bad Request"
+2025-07-30 08:25:29,099 - ERROR - Database query error for query 'training and skills development': {'message': 'column reference "id" is ambiguous', 'code': '42702', 'hint': None, 'details': 'It could refer to either a PL/pgSQL variable or a table column.'}
+2025-07-30 08:25:29,937 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:25:30,895 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:25:31,104 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 400 Bad Request"
+2025-07-30 08:25:31,105 - ERROR - Database query error for query 'skills development': {'message': 'column reference "id" is ambiguous', 'code': '42702', 'hint': None, 'details': 'It could refer to either a PL/pgSQL variable or a table column.'}
+2025-07-30 08:25:31,442 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:25:31,941 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history "HTTP/2 201 Created"
+2025-07-30 08:25:31,942 - INFO - Processed question: How will we invest in continuous training and skills development for our team? for user: seanfatal778@gmail.com
+2025-07-30 08:25:32,166 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:34:17,589 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:34:23,125 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:34:29,220 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:34:29,279 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 08:34:30,194 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:34:30,951 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 08:34:31,169 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-30 08:34:31,171 - INFO - No documents found for query: continuous training and skills development
+2025-07-30 08:34:32,612 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 08:34:32,997 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history "HTTP/2 201 Created"
+2025-07-30 08:34:32,999 - INFO - Processed question: How will we invest in continuous training and skills development for our team? for user: seanfatal778@gmail.com
+2025-07-30 08:34:33,167 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 08:47:04,647 - INFO - Loaded 2067 pages from PDFs in documents
+2025-07-30 08:47:04,868 - INFO - Split into 7054 chunks
+2025-07-30 08:47:05,300 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents "HTTP/2 400 Bad Request"
+2025-07-30 08:47:05,301 - ERROR - Ingestion error: {'message': 'Embedding API error: invalid input syntax for type json', 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 09:54:38,257 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?select=id&limit=1 "HTTP/2 200 OK"
+2025-07-30 09:54:38,260 - INFO - Supabase connection successful
+2025-07-30 09:54:38,260 - ERROR - Ingestion error: 'PyPDFDirectoryLoader' object has no attribute '_get_files'
+2025-07-30 09:56:49,950 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?select=id&limit=1 "HTTP/2 200 OK"
+2025-07-30 09:56:49,953 - INFO - Supabase connection successful
+2025-07-30 09:56:52,151 - INFO - Loaded 20 pages from Office Hours with Aaron Biner, 030325.pdf
+2025-07-30 09:56:53,262 - INFO - Loaded 8 pages from Office Hours with Aaron Biner, 031025.pdf
+2025-07-30 09:56:55,869 - INFO - Loaded 17 pages from Office Hours with Aaron Biner, 051925.pdf
+2025-07-30 09:56:58,411 - INFO - Loaded 22 pages from Office Hours with Zeus Shields, 032425.pdf
+2025-07-30 09:57:01,055 - INFO - Loaded 21 pages from Office Hours with Zeus Shields, 042224.pdf
+2025-07-30 09:57:03,154 - INFO - Loaded 19 pages from Office Hours, 01042023.pdf
+2025-07-30 09:57:04,536 - INFO - Loaded 13 pages from Office Hours, 010625.pdf
+2025-07-30 09:57:06,684 - INFO - Loaded 20 pages from Office Hours, 010824.pdf
+2025-07-30 09:57:09,317 - INFO - Loaded 24 pages from Office Hours, 011325.pdf
+2025-07-30 09:57:10,975 - INFO - Loaded 13 pages from Office Hours, 011524.pdf
+2025-07-30 09:57:12,063 - INFO - Loaded 10 pages from Office Hours, 01162023.pdf
+2025-07-30 09:57:13,396 - INFO - Loaded 11 pages from Office Hours, 012025.pdf
+2025-07-30 09:57:16,798 - INFO - Loaded 32 pages from Office Hours, 01232023.pdf
+2025-07-30 09:57:19,919 - INFO - Loaded 31 pages from Office Hours, 012324.pdf
+2025-07-30 09:57:21,436 - INFO - Loaded 14 pages from Office Hours, 012725.pdf
+2025-07-30 09:57:23,343 - INFO - Loaded 17 pages from Office Hours, 013023.pdf
+2025-07-30 09:57:25,890 - INFO - Loaded 23 pages from Office Hours, 013024.pdf
+2025-07-30 09:57:27,268 - INFO - Loaded 13 pages from Office Hours, 020325.pdf
+2025-07-30 09:57:28,603 - INFO - Loaded 9 pages from Office Hours, 020524.pdf
+2025-07-30 09:57:31,244 - INFO - Loaded 25 pages from Office Hours, 020623.pdf
+2025-07-30 09:57:32,997 - INFO - Loaded 16 pages from Office Hours, 021025.pdf
+2025-07-30 09:57:35,548 - INFO - Loaded 22 pages from Office Hours, 021224.pdf
+2025-07-30 09:57:38,408 - INFO - Loaded 20 pages from Office Hours, 02132023.pdf
+2025-07-30 09:57:39,511 - INFO - Loaded 9 pages from Office Hours, 021825.pdf
+2025-07-30 09:57:41,704 - INFO - Loaded 19 pages from Office Hours, 022024.pdf
+2025-07-30 09:57:43,874 - INFO - Loaded 21 pages from Office Hours, 02212023.pdf
+2025-07-30 09:57:45,034 - INFO - Loaded 11 pages from Office Hours, 022425.pdf
+2025-07-30 09:57:49,388 - INFO - Loaded 29 pages from Office Hours, 03062023.pdf
+2025-07-30 09:57:50,835 - INFO - Loaded 14 pages from Office Hours, 031224.pdf
+2025-07-30 09:57:52,197 - INFO - Loaded 13 pages from Office Hours, 031824.pdf
+2025-07-30 09:57:53,857 - INFO - Loaded 15 pages from Office Hours, 031825.pdf
+2025-07-30 09:57:55,710 - INFO - Loaded 18 pages from Office Hours, 032023.pdf
+2025-07-30 09:57:58,402 - INFO - Loaded 25 pages from Office Hours, 032524.pdf
+2025-07-30 09:58:01,139 - INFO - Loaded 26 pages from Office Hours, 032723.pdf
+2025-07-30 09:58:02,537 - INFO - Loaded 12 pages from Office Hours, 033125.pdf
+2025-07-30 09:58:05,433 - INFO - Loaded 28 pages from Office Hours, 040124.pdf
+2025-07-30 09:58:07,234 - INFO - Loaded 15 pages from Office Hours, 040423.pdf
+2025-07-30 09:58:09,900 - INFO - Loaded 26 pages from Office Hours, 040824.pdf
+2025-07-30 09:58:13,807 - INFO - Loaded 39 pages from Office Hours, 041524.pdf
+2025-07-30 09:58:16,774 - INFO - Loaded 27 pages from Office Hours, 041723.pdf
+2025-07-30 09:58:17,765 - INFO - Loaded 9 pages from Office Hours, 042423.pdf
+2025-07-30 09:58:19,052 - INFO - Loaded 10 pages from Office Hours, 042825.pdf
+2025-07-30 09:58:19,811 - INFO - Loaded 7 pages from Office Hours, 043024.pdf
+2025-07-30 09:58:21,775 - INFO - Loaded 18 pages from Office Hours, 050123.pdf
+2025-07-30 09:58:25,218 - INFO - Loaded 31 pages from Office Hours, 050525.pdf
+2025-07-30 09:58:27,837 - INFO - Loaded 25 pages from Office Hours, 050823.pdf
+2025-07-30 09:58:29,156 - INFO - Loaded 12 pages from Office Hours, 051225.pdf
+2025-07-30 09:58:31,839 - INFO - Loaded 24 pages from Office Hours, 051324.pdf
+2025-07-30 09:58:34,597 - INFO - Loaded 24 pages from Office Hours, 051523.pdf
+2025-07-30 09:58:37,356 - INFO - Loaded 27 pages from Office Hours, 052024.pdf
+2025-07-30 09:58:39,495 - INFO - Loaded 19 pages from Office Hours, 052223.pdf
+2025-07-30 09:58:40,761 - INFO - Loaded 12 pages from Office Hours, 052623.pdf
+2025-07-30 09:58:41,959 - INFO - Loaded 11 pages from Office Hours, 052824.pdf
+2025-07-30 09:58:42,936 - INFO - Loaded 8 pages from Office Hours, 053023.pdf
+2025-07-30 09:58:45,252 - INFO - Loaded 22 pages from Office Hours, 060225.pdf
+2025-07-30 09:58:48,039 - INFO - Loaded 26 pages from Office Hours, 060324.pdf
+2025-07-30 09:58:50,841 - INFO - Loaded 28 pages from Office Hours, 060523.pdf
+2025-07-30 09:58:53,619 - INFO - Loaded 26 pages from Office Hours, 061024.pdf
+2025-07-30 09:58:54,710 - INFO - Loaded 10 pages from Office Hours, 061025.pdf
+2025-07-30 09:58:56,835 - INFO - Loaded 21 pages from Office Hours, 061223.pdf
+2025-07-30 09:58:59,512 - INFO - Loaded 24 pages from Office Hours, 061625.pdf
+2025-07-30 09:59:00,828 - INFO - Loaded 11 pages from Office Hours, 061724.pdf
+2025-07-30 09:59:02,914 - INFO - Loaded 18 pages from Office Hours, 061923.pdf
+2025-07-30 09:59:04,836 - INFO - Loaded 15 pages from Office Hours, 062325.pdf
+2025-07-30 09:59:05,612 - INFO - Loaded 7 pages from Office Hours, 062424.pdf
+2025-07-30 09:59:07,098 - INFO - Loaded 12 pages from Office Hours, 063025.pdf
+2025-07-30 09:59:10,306 - INFO - Loaded 30 pages from Office Hours, 070124.pdf
+2025-07-30 09:59:13,443 - INFO - Loaded 30 pages from Office Hours, 070323.pdf
+2025-07-30 09:59:15,440 - INFO - Loaded 20 pages from Office Hours, 070824.pdf
+2025-07-30 09:59:17,042 - INFO - Loaded 15 pages from Office Hours, 071023.pdf
+2025-07-30 09:59:19,295 - INFO - Loaded 23 pages from Office Hours, 071524.pdf
+2025-07-30 09:59:21,698 - INFO - Loaded 23 pages from Office Hours, 071723.pdf
+2025-07-30 09:59:24,480 - INFO - Loaded 25 pages from Office Hours, 072224.pdf
+2025-07-30 09:59:26,071 - INFO - Loaded 13 pages from Office Hours, 072924.pdf
+2025-07-30 09:59:27,479 - INFO - Loaded 13 pages from Office Hours, 073123.pdf
+2025-07-30 09:59:30,189 - INFO - Loaded 21 pages from Office Hours, 080723.pdf
+2025-07-30 09:59:32,733 - INFO - Loaded 24 pages from Office Hours, 081224.pdf
+2025-07-30 09:59:35,083 - INFO - Loaded 23 pages from Office Hours, 081423.pdf
+2025-07-30 09:59:36,131 - INFO - Loaded 9 pages from Office Hours, 082024.pdf
+2025-07-30 09:59:37,596 - INFO - Loaded 13 pages from Office Hours, 082123.pdf
+2025-07-30 09:59:40,222 - INFO - Loaded 26 pages from Office Hours, 082624.pdf
+2025-07-30 09:59:41,990 - INFO - Loaded 17 pages from Office Hours, 082823.pdf
+2025-07-30 09:59:43,035 - INFO - Loaded 11 pages from Office Hours, 090324.pdf
+2025-07-30 09:59:45,200 - INFO - Loaded 15 pages from Office Hours, 090924.pdf
+2025-07-30 09:59:47,445 - INFO - Loaded 23 pages from Office Hours, 091123.pdf
+2025-07-30 09:59:50,706 - INFO - Loaded 27 pages from Office Hours, 091624.pdf
+2025-07-30 09:59:52,081 - INFO - Loaded 12 pages from Office Hours, 091823.pdf
+2025-07-30 09:59:53,835 - INFO - Loaded 16 pages from Office Hours, 092324.pdf
+2025-07-30 09:59:55,402 - INFO - Loaded 15 pages from Office Hours, 092523.pdf
+2025-07-30 09:59:57,464 - INFO - Loaded 13 pages from Office Hours, 093024.pdf
+2025-07-30 09:59:58,511 - INFO - Loaded 9 pages from Office Hours, 100724.pdf
+2025-07-30 10:00:00,447 - INFO - Loaded 17 pages from Office Hours, 101424.pdf
+2025-07-30 10:00:02,326 - INFO - Loaded 17 pages from Office Hours, 102124.pdf
+2025-07-30 10:00:04,599 - INFO - Loaded 22 pages from Office Hours, 10223.pdf
+2025-07-30 10:00:05,617 - INFO - Loaded 10 pages from Office Hours, 102423.pdf
+2025-07-30 10:00:06,698 - INFO - Loaded 9 pages from Office Hours, 102824.pdf
+2025-07-30 10:00:08,498 - INFO - Loaded 16 pages from Office Hours, 10923.pdf
+2025-07-30 10:00:10,431 - INFO - Loaded 16 pages from Office Hours, 110424.pdf
+2025-07-30 10:00:12,139 - INFO - Loaded 17 pages from Office Hours, 111124.pdf
+2025-07-30 10:00:13,278 - INFO - Loaded 10 pages from Office Hours, 111824.pdf
+2025-07-30 10:00:14,838 - INFO - Loaded 12 pages from Office Hours, 112023.pdf
+2025-07-30 10:00:16,570 - INFO - Loaded 17 pages from Office Hours, 112524.pdf
+2025-07-30 10:00:18,863 - INFO - Loaded 22 pages from Office Hours, 112723.pdf
+2025-07-30 10:00:22,027 - INFO - Loaded 31 pages from Office Hours, 11823.pdf
+2025-07-30 10:00:24,147 - INFO - Loaded 20 pages from Office Hours, 120224.pdf
+2025-07-30 10:00:27,585 - INFO - Loaded 31 pages from Office Hours, 120423.pdf
+2025-07-30 10:00:29,737 - INFO - Loaded 21 pages from Office Hours, 120924.pdf
+2025-07-30 10:00:31,885 - INFO - Loaded 19 pages from Office Hours, 12112023.pdf
+2025-07-30 10:00:34,379 - INFO - Loaded 23 pages from Office Hours, 121624.pdf
+2025-07-30 10:00:36,795 - INFO - Loaded 22 pages from Office Hours, 121823.pdf
+2025-07-30 10:00:39,437 - INFO - Loaded 25 pages from Office Hours, 2272023.pdf
+2025-07-30 10:00:39,438 - INFO - Loaded 2067 pages from PDFs in documents
+2025-07-30 10:00:39,611 - INFO - Split into 7054 chunks
+2025-07-30 10:00:48,291 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 500 Internal Server Error"
+2025-07-30 10:00:48,292 - ERROR - Batch insert error: {'message': 'canceling statement due to statement timeout', 'code': '57014', 'hint': None, 'details': None}
+2025-07-30 10:01:00,779 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 500 Internal Server Error"
+2025-07-30 10:01:00,781 - ERROR - Batch insert error: {'message': 'canceling statement due to statement timeout', 'code': '57014', 'hint': None, 'details': None}
+2025-07-30 10:01:13,128 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 500 Internal Server Error"
+2025-07-30 10:01:13,129 - ERROR - Batch insert error: {'message': 'canceling statement due to statement timeout', 'code': '57014', 'hint': None, 'details': None}
+2025-07-30 10:01:13,129 - ERROR - Ingestion error: RetryError[<Future at 0x15675711780 state=finished raised APIError>]
+2025-07-30 10:08:25,689 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?select=id&limit=1 "HTTP/2 200 OK"
+2025-07-30 10:08:25,691 - INFO - Supabase connection successful
+2025-07-30 10:08:27,891 - INFO - Loaded 20 pages from Office Hours with Aaron Biner, 030325.pdf
+2025-07-30 10:08:28,998 - INFO - Loaded 8 pages from Office Hours with Aaron Biner, 031025.pdf
+2025-07-30 10:08:31,597 - INFO - Loaded 17 pages from Office Hours with Aaron Biner, 051925.pdf
+2025-07-30 10:08:34,118 - INFO - Loaded 22 pages from Office Hours with Zeus Shields, 032425.pdf
+2025-07-30 10:08:36,670 - INFO - Loaded 21 pages from Office Hours with Zeus Shields, 042224.pdf
+2025-07-30 10:08:38,769 - INFO - Loaded 19 pages from Office Hours, 01042023.pdf
+2025-07-30 10:08:40,126 - INFO - Loaded 13 pages from Office Hours, 010625.pdf
+2025-07-30 10:08:42,249 - INFO - Loaded 20 pages from Office Hours, 010824.pdf
+2025-07-30 10:08:44,824 - INFO - Loaded 24 pages from Office Hours, 011325.pdf
+2025-07-30 10:08:46,461 - INFO - Loaded 13 pages from Office Hours, 011524.pdf
+2025-07-30 10:08:47,545 - INFO - Loaded 10 pages from Office Hours, 01162023.pdf
+2025-07-30 10:08:48,861 - INFO - Loaded 11 pages from Office Hours, 012025.pdf
+2025-07-30 10:08:52,244 - INFO - Loaded 32 pages from Office Hours, 01232023.pdf
+2025-07-30 10:08:55,354 - INFO - Loaded 31 pages from Office Hours, 012324.pdf
+2025-07-30 10:08:56,839 - INFO - Loaded 14 pages from Office Hours, 012725.pdf
+2025-07-30 10:08:58,738 - INFO - Loaded 17 pages from Office Hours, 013023.pdf
+2025-07-30 10:09:01,271 - INFO - Loaded 23 pages from Office Hours, 013024.pdf
+2025-07-30 10:09:02,633 - INFO - Loaded 13 pages from Office Hours, 020325.pdf
+2025-07-30 10:09:03,952 - INFO - Loaded 9 pages from Office Hours, 020524.pdf
+2025-07-30 10:09:06,548 - INFO - Loaded 25 pages from Office Hours, 020623.pdf
+2025-07-30 10:09:08,295 - INFO - Loaded 16 pages from Office Hours, 021025.pdf
+2025-07-30 10:09:10,850 - INFO - Loaded 22 pages from Office Hours, 021224.pdf
+2025-07-30 10:09:13,703 - INFO - Loaded 20 pages from Office Hours, 02132023.pdf
+2025-07-30 10:09:14,776 - INFO - Loaded 9 pages from Office Hours, 021825.pdf
+2025-07-30 10:09:16,945 - INFO - Loaded 19 pages from Office Hours, 022024.pdf
+2025-07-30 10:09:19,105 - INFO - Loaded 21 pages from Office Hours, 02212023.pdf
+2025-07-30 10:09:20,245 - INFO - Loaded 11 pages from Office Hours, 022425.pdf
+2025-07-30 10:09:24,526 - INFO - Loaded 29 pages from Office Hours, 03062023.pdf
+2025-07-30 10:09:25,969 - INFO - Loaded 14 pages from Office Hours, 031224.pdf
+2025-07-30 10:09:27,362 - INFO - Loaded 13 pages from Office Hours, 031824.pdf
+2025-07-30 10:09:29,010 - INFO - Loaded 15 pages from Office Hours, 031825.pdf
+2025-07-30 10:09:30,843 - INFO - Loaded 18 pages from Office Hours, 032023.pdf
+2025-07-30 10:09:33,539 - INFO - Loaded 25 pages from Office Hours, 032524.pdf
+2025-07-30 10:09:36,312 - INFO - Loaded 26 pages from Office Hours, 032723.pdf
+2025-07-30 10:09:37,709 - INFO - Loaded 12 pages from Office Hours, 033125.pdf
+2025-07-30 10:09:40,545 - INFO - Loaded 28 pages from Office Hours, 040124.pdf
+2025-07-30 10:09:42,312 - INFO - Loaded 15 pages from Office Hours, 040423.pdf
+2025-07-30 10:09:44,942 - INFO - Loaded 26 pages from Office Hours, 040824.pdf
+2025-07-30 10:09:48,828 - INFO - Loaded 39 pages from Office Hours, 041524.pdf
+2025-07-30 10:09:51,781 - INFO - Loaded 27 pages from Office Hours, 041723.pdf
+2025-07-30 10:09:52,771 - INFO - Loaded 9 pages from Office Hours, 042423.pdf
+2025-07-30 10:09:54,033 - INFO - Loaded 10 pages from Office Hours, 042825.pdf
+2025-07-30 10:09:54,777 - INFO - Loaded 7 pages from Office Hours, 043024.pdf
+2025-07-30 10:09:56,744 - INFO - Loaded 18 pages from Office Hours, 050123.pdf
+2025-07-30 10:10:00,154 - INFO - Loaded 31 pages from Office Hours, 050525.pdf
+2025-07-30 10:10:02,778 - INFO - Loaded 25 pages from Office Hours, 050823.pdf
+2025-07-30 10:10:04,102 - INFO - Loaded 12 pages from Office Hours, 051225.pdf
+2025-07-30 10:10:06,799 - INFO - Loaded 24 pages from Office Hours, 051324.pdf
+2025-07-30 10:10:09,532 - INFO - Loaded 24 pages from Office Hours, 051523.pdf
+2025-07-30 10:10:12,280 - INFO - Loaded 27 pages from Office Hours, 052024.pdf
+2025-07-30 10:10:14,403 - INFO - Loaded 19 pages from Office Hours, 052223.pdf
+2025-07-30 10:10:15,673 - INFO - Loaded 12 pages from Office Hours, 052623.pdf
+2025-07-30 10:10:16,900 - INFO - Loaded 11 pages from Office Hours, 052824.pdf
+2025-07-30 10:10:17,878 - INFO - Loaded 8 pages from Office Hours, 053023.pdf
+2025-07-30 10:10:20,147 - INFO - Loaded 22 pages from Office Hours, 060225.pdf
+2025-07-30 10:10:22,934 - INFO - Loaded 26 pages from Office Hours, 060324.pdf
+2025-07-30 10:10:25,685 - INFO - Loaded 28 pages from Office Hours, 060523.pdf
+2025-07-30 10:10:28,474 - INFO - Loaded 26 pages from Office Hours, 061024.pdf
+2025-07-30 10:10:29,570 - INFO - Loaded 10 pages from Office Hours, 061025.pdf
+2025-07-30 10:10:31,700 - INFO - Loaded 21 pages from Office Hours, 061223.pdf
+2025-07-30 10:10:34,408 - INFO - Loaded 24 pages from Office Hours, 061625.pdf
+2025-07-30 10:10:35,768 - INFO - Loaded 11 pages from Office Hours, 061724.pdf
+2025-07-30 10:10:37,872 - INFO - Loaded 18 pages from Office Hours, 061923.pdf
+2025-07-30 10:10:39,711 - INFO - Loaded 15 pages from Office Hours, 062325.pdf
+2025-07-30 10:10:40,478 - INFO - Loaded 7 pages from Office Hours, 062424.pdf
+2025-07-30 10:10:41,950 - INFO - Loaded 12 pages from Office Hours, 063025.pdf
+2025-07-30 10:10:45,167 - INFO - Loaded 30 pages from Office Hours, 070124.pdf
+2025-07-30 10:10:48,324 - INFO - Loaded 30 pages from Office Hours, 070323.pdf
+2025-07-30 10:10:50,320 - INFO - Loaded 20 pages from Office Hours, 070824.pdf
+2025-07-30 10:10:51,951 - INFO - Loaded 15 pages from Office Hours, 071023.pdf
+2025-07-30 10:10:54,199 - INFO - Loaded 23 pages from Office Hours, 071524.pdf
+2025-07-30 10:10:56,588 - INFO - Loaded 23 pages from Office Hours, 071723.pdf
+2025-07-30 10:10:59,357 - INFO - Loaded 25 pages from Office Hours, 072224.pdf
+2025-07-30 10:11:00,941 - INFO - Loaded 13 pages from Office Hours, 072924.pdf
+2025-07-30 10:11:02,358 - INFO - Loaded 13 pages from Office Hours, 073123.pdf
+2025-07-30 10:11:05,064 - INFO - Loaded 21 pages from Office Hours, 080723.pdf
+2025-07-30 10:11:07,597 - INFO - Loaded 24 pages from Office Hours, 081224.pdf
+2025-07-30 10:11:09,912 - INFO - Loaded 23 pages from Office Hours, 081423.pdf
+2025-07-30 10:11:10,970 - INFO - Loaded 9 pages from Office Hours, 082024.pdf
+2025-07-30 10:11:12,426 - INFO - Loaded 13 pages from Office Hours, 082123.pdf
+2025-07-30 10:11:15,024 - INFO - Loaded 26 pages from Office Hours, 082624.pdf
+2025-07-30 10:11:16,789 - INFO - Loaded 17 pages from Office Hours, 082823.pdf
+2025-07-30 10:11:17,827 - INFO - Loaded 11 pages from Office Hours, 090324.pdf
+2025-07-30 10:11:20,007 - INFO - Loaded 15 pages from Office Hours, 090924.pdf
+2025-07-30 10:11:22,275 - INFO - Loaded 23 pages from Office Hours, 091123.pdf
+2025-07-30 10:11:25,480 - INFO - Loaded 27 pages from Office Hours, 091624.pdf
+2025-07-30 10:11:26,841 - INFO - Loaded 12 pages from Office Hours, 091823.pdf
+2025-07-30 10:11:28,580 - INFO - Loaded 16 pages from Office Hours, 092324.pdf
+2025-07-30 10:11:30,143 - INFO - Loaded 15 pages from Office Hours, 092523.pdf
+2025-07-30 10:11:32,171 - INFO - Loaded 13 pages from Office Hours, 093024.pdf
+2025-07-30 10:11:33,223 - INFO - Loaded 9 pages from Office Hours, 100724.pdf
+2025-07-30 10:11:35,136 - INFO - Loaded 17 pages from Office Hours, 101424.pdf
+2025-07-30 10:11:37,006 - INFO - Loaded 17 pages from Office Hours, 102124.pdf
+2025-07-30 10:11:39,250 - INFO - Loaded 22 pages from Office Hours, 10223.pdf
+2025-07-30 10:11:40,243 - INFO - Loaded 10 pages from Office Hours, 102423.pdf
+2025-07-30 10:11:41,322 - INFO - Loaded 9 pages from Office Hours, 102824.pdf
+2025-07-30 10:11:43,103 - INFO - Loaded 16 pages from Office Hours, 10923.pdf
+2025-07-30 10:11:45,010 - INFO - Loaded 16 pages from Office Hours, 110424.pdf
+2025-07-30 10:11:46,719 - INFO - Loaded 17 pages from Office Hours, 111124.pdf
+2025-07-30 10:11:47,843 - INFO - Loaded 10 pages from Office Hours, 111824.pdf
+2025-07-30 10:11:49,397 - INFO - Loaded 12 pages from Office Hours, 112023.pdf
+2025-07-30 10:11:51,120 - INFO - Loaded 17 pages from Office Hours, 112524.pdf
+2025-07-30 10:11:53,422 - INFO - Loaded 22 pages from Office Hours, 112723.pdf
+2025-07-30 10:11:56,562 - INFO - Loaded 31 pages from Office Hours, 11823.pdf
+2025-07-30 10:11:58,690 - INFO - Loaded 20 pages from Office Hours, 120224.pdf
+2025-07-30 10:12:02,119 - INFO - Loaded 31 pages from Office Hours, 120423.pdf
+2025-07-30 10:12:04,265 - INFO - Loaded 21 pages from Office Hours, 120924.pdf
+2025-07-30 10:12:06,361 - INFO - Loaded 19 pages from Office Hours, 12112023.pdf
+2025-07-30 10:12:08,838 - INFO - Loaded 23 pages from Office Hours, 121624.pdf
+2025-07-30 10:12:11,274 - INFO - Loaded 22 pages from Office Hours, 121823.pdf
+2025-07-30 10:12:13,893 - INFO - Loaded 25 pages from Office Hours, 2272023.pdf
+2025-07-30 10:12:13,893 - INFO - Loaded 2067 pages from PDFs in documents
+2025-07-30 10:12:14,064 - INFO - Split into 7054 chunks
+2025-07-30 10:12:22,646 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 500 Internal Server Error"
+2025-07-30 10:12:22,647 - ERROR - Batch insert error: {'message': 'canceling statement due to statement timeout', 'code': '57014', 'hint': None, 'details': None}
+2025-07-30 10:12:34,944 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 500 Internal Server Error"
+2025-07-30 10:12:34,944 - ERROR - Batch insert error: {'message': 'canceling statement due to statement timeout', 'code': '57014', 'hint': None, 'details': None}
+2025-07-30 10:12:47,329 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 500 Internal Server Error"
+2025-07-30 10:12:47,330 - ERROR - Batch insert error: {'message': 'canceling statement due to statement timeout', 'code': '57014', 'hint': None, 'details': None}
+2025-07-30 10:12:47,330 - ERROR - Ingestion error: RetryError[<Future at 0x26a560bcf10 state=finished raised APIError>]
+2025-07-30 10:31:33,639 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?select=id&limit=1 "HTTP/2 200 OK"
+2025-07-30 10:31:33,642 - INFO - Supabase connection successful
+2025-07-30 10:31:35,845 - INFO - Loaded 20 pages from Office Hours with Aaron Biner, 030325.pdf
+2025-07-30 10:31:36,965 - INFO - Loaded 8 pages from Office Hours with Aaron Biner, 031025.pdf
+2025-07-30 10:31:39,565 - INFO - Loaded 17 pages from Office Hours with Aaron Biner, 051925.pdf
+2025-07-30 10:31:42,095 - INFO - Loaded 22 pages from Office Hours with Zeus Shields, 032425.pdf
+2025-07-30 10:31:44,649 - INFO - Loaded 21 pages from Office Hours with Zeus Shields, 042224.pdf
+2025-07-30 10:31:46,761 - INFO - Loaded 19 pages from Office Hours, 01042023.pdf
+2025-07-30 10:31:48,117 - INFO - Loaded 13 pages from Office Hours, 010625.pdf
+2025-07-30 10:31:50,271 - INFO - Loaded 20 pages from Office Hours, 010824.pdf
+2025-07-30 10:31:52,876 - INFO - Loaded 24 pages from Office Hours, 011325.pdf
+2025-07-30 10:31:54,506 - INFO - Loaded 13 pages from Office Hours, 011524.pdf
+2025-07-30 10:31:55,588 - INFO - Loaded 10 pages from Office Hours, 01162023.pdf
+2025-07-30 10:31:56,913 - INFO - Loaded 11 pages from Office Hours, 012025.pdf
+2025-07-30 10:32:00,346 - INFO - Loaded 32 pages from Office Hours, 01232023.pdf
+2025-07-30 10:32:03,488 - INFO - Loaded 31 pages from Office Hours, 012324.pdf
+2025-07-30 10:32:05,003 - INFO - Loaded 14 pages from Office Hours, 012725.pdf
+2025-07-30 10:32:06,910 - INFO - Loaded 17 pages from Office Hours, 013023.pdf
+2025-07-30 10:32:09,479 - INFO - Loaded 23 pages from Office Hours, 013024.pdf
+2025-07-30 10:32:10,854 - INFO - Loaded 13 pages from Office Hours, 020325.pdf
+2025-07-30 10:32:12,173 - INFO - Loaded 9 pages from Office Hours, 020524.pdf
+2025-07-30 10:32:14,822 - INFO - Loaded 25 pages from Office Hours, 020623.pdf
+2025-07-30 10:32:16,538 - INFO - Loaded 16 pages from Office Hours, 021025.pdf
+2025-07-30 10:32:19,102 - INFO - Loaded 22 pages from Office Hours, 021224.pdf
+2025-07-30 10:32:21,963 - INFO - Loaded 20 pages from Office Hours, 02132023.pdf
+2025-07-30 10:32:23,048 - INFO - Loaded 9 pages from Office Hours, 021825.pdf
+2025-07-30 10:32:25,215 - INFO - Loaded 19 pages from Office Hours, 022024.pdf
+2025-07-30 10:32:27,373 - INFO - Loaded 21 pages from Office Hours, 02212023.pdf
+2025-07-30 10:32:28,522 - INFO - Loaded 11 pages from Office Hours, 022425.pdf
+2025-07-30 10:32:32,875 - INFO - Loaded 29 pages from Office Hours, 03062023.pdf
+2025-07-30 10:32:34,341 - INFO - Loaded 14 pages from Office Hours, 031224.pdf
+2025-07-30 10:32:35,713 - INFO - Loaded 13 pages from Office Hours, 031824.pdf
+2025-07-30 10:32:37,348 - INFO - Loaded 15 pages from Office Hours, 031825.pdf
+2025-07-30 10:32:39,183 - INFO - Loaded 18 pages from Office Hours, 032023.pdf
+2025-07-30 10:32:41,921 - INFO - Loaded 25 pages from Office Hours, 032524.pdf
+2025-07-30 10:32:44,676 - INFO - Loaded 26 pages from Office Hours, 032723.pdf
+2025-07-30 10:32:46,066 - INFO - Loaded 12 pages from Office Hours, 033125.pdf
+2025-07-30 10:32:48,936 - INFO - Loaded 28 pages from Office Hours, 040124.pdf
+2025-07-30 10:32:50,725 - INFO - Loaded 15 pages from Office Hours, 040423.pdf
+2025-07-30 10:32:53,362 - INFO - Loaded 26 pages from Office Hours, 040824.pdf
+2025-07-30 10:32:57,271 - INFO - Loaded 39 pages from Office Hours, 041524.pdf
+2025-07-30 10:33:00,219 - INFO - Loaded 27 pages from Office Hours, 041723.pdf
+2025-07-30 10:33:01,206 - INFO - Loaded 9 pages from Office Hours, 042423.pdf
+2025-07-30 10:33:02,467 - INFO - Loaded 10 pages from Office Hours, 042825.pdf
+2025-07-30 10:33:03,209 - INFO - Loaded 7 pages from Office Hours, 043024.pdf
+2025-07-30 10:33:05,211 - INFO - Loaded 18 pages from Office Hours, 050123.pdf
+2025-07-30 10:33:08,643 - INFO - Loaded 31 pages from Office Hours, 050525.pdf
+2025-07-30 10:33:11,250 - INFO - Loaded 25 pages from Office Hours, 050823.pdf
+2025-07-30 10:33:12,565 - INFO - Loaded 12 pages from Office Hours, 051225.pdf
+2025-07-30 10:33:15,267 - INFO - Loaded 24 pages from Office Hours, 051324.pdf
+2025-07-30 10:33:17,934 - INFO - Loaded 24 pages from Office Hours, 051523.pdf
+2025-07-30 10:33:20,693 - INFO - Loaded 27 pages from Office Hours, 052024.pdf
+2025-07-30 10:33:22,826 - INFO - Loaded 19 pages from Office Hours, 052223.pdf
+2025-07-30 10:33:24,099 - INFO - Loaded 12 pages from Office Hours, 052623.pdf
+2025-07-30 10:33:25,316 - INFO - Loaded 11 pages from Office Hours, 052824.pdf
+2025-07-30 10:33:26,297 - INFO - Loaded 8 pages from Office Hours, 053023.pdf
+2025-07-30 10:33:28,593 - INFO - Loaded 22 pages from Office Hours, 060225.pdf
+2025-07-30 10:33:31,460 - INFO - Loaded 26 pages from Office Hours, 060324.pdf
+2025-07-30 10:33:34,268 - INFO - Loaded 28 pages from Office Hours, 060523.pdf
+2025-07-30 10:33:37,071 - INFO - Loaded 26 pages from Office Hours, 061024.pdf
+2025-07-30 10:33:38,176 - INFO - Loaded 10 pages from Office Hours, 061025.pdf
+2025-07-30 10:33:40,303 - INFO - Loaded 21 pages from Office Hours, 061223.pdf
+2025-07-30 10:33:42,976 - INFO - Loaded 24 pages from Office Hours, 061625.pdf
+2025-07-30 10:33:44,297 - INFO - Loaded 11 pages from Office Hours, 061724.pdf
+2025-07-30 10:33:46,394 - INFO - Loaded 18 pages from Office Hours, 061923.pdf
+2025-07-30 10:33:48,247 - INFO - Loaded 15 pages from Office Hours, 062325.pdf
+2025-07-30 10:33:49,024 - INFO - Loaded 7 pages from Office Hours, 062424.pdf
+2025-07-30 10:33:50,517 - INFO - Loaded 12 pages from Office Hours, 063025.pdf
+2025-07-30 10:33:53,735 - INFO - Loaded 30 pages from Office Hours, 070124.pdf
+2025-07-30 10:33:56,900 - INFO - Loaded 30 pages from Office Hours, 070323.pdf
+2025-07-30 10:33:58,898 - INFO - Loaded 20 pages from Office Hours, 070824.pdf
+2025-07-30 10:34:00,507 - INFO - Loaded 15 pages from Office Hours, 071023.pdf
+2025-07-30 10:34:02,779 - INFO - Loaded 23 pages from Office Hours, 071524.pdf
+2025-07-30 10:34:05,203 - INFO - Loaded 23 pages from Office Hours, 071723.pdf
+2025-07-30 10:34:07,983 - INFO - Loaded 25 pages from Office Hours, 072224.pdf
+2025-07-30 10:34:09,587 - INFO - Loaded 13 pages from Office Hours, 072924.pdf
+2025-07-30 10:34:11,000 - INFO - Loaded 13 pages from Office Hours, 073123.pdf
+2025-07-30 10:34:13,689 - INFO - Loaded 21 pages from Office Hours, 080723.pdf
+2025-07-30 10:34:16,255 - INFO - Loaded 24 pages from Office Hours, 081224.pdf
+2025-07-30 10:34:18,584 - INFO - Loaded 23 pages from Office Hours, 081423.pdf
+2025-07-30 10:34:19,635 - INFO - Loaded 9 pages from Office Hours, 082024.pdf
+2025-07-30 10:34:21,086 - INFO - Loaded 13 pages from Office Hours, 082123.pdf
+2025-07-30 10:34:23,653 - INFO - Loaded 26 pages from Office Hours, 082624.pdf
+2025-07-30 10:34:25,455 - INFO - Loaded 17 pages from Office Hours, 082823.pdf
+2025-07-30 10:34:26,503 - INFO - Loaded 11 pages from Office Hours, 090324.pdf
+2025-07-30 10:34:28,689 - INFO - Loaded 15 pages from Office Hours, 090924.pdf
+2025-07-30 10:34:30,938 - INFO - Loaded 23 pages from Office Hours, 091123.pdf
+2025-07-30 10:34:34,208 - INFO - Loaded 27 pages from Office Hours, 091624.pdf
+2025-07-30 10:34:35,610 - INFO - Loaded 12 pages from Office Hours, 091823.pdf
+2025-07-30 10:34:37,450 - INFO - Loaded 16 pages from Office Hours, 092324.pdf
+2025-07-30 10:34:39,025 - INFO - Loaded 15 pages from Office Hours, 092523.pdf
+2025-07-30 10:34:41,093 - INFO - Loaded 13 pages from Office Hours, 093024.pdf
+2025-07-30 10:34:42,136 - INFO - Loaded 9 pages from Office Hours, 100724.pdf
+2025-07-30 10:34:44,063 - INFO - Loaded 17 pages from Office Hours, 101424.pdf
+2025-07-30 10:34:45,966 - INFO - Loaded 17 pages from Office Hours, 102124.pdf
+2025-07-30 10:34:48,214 - INFO - Loaded 22 pages from Office Hours, 10223.pdf
+2025-07-30 10:34:49,226 - INFO - Loaded 10 pages from Office Hours, 102423.pdf
+2025-07-30 10:34:50,332 - INFO - Loaded 9 pages from Office Hours, 102824.pdf
+2025-07-30 10:34:52,127 - INFO - Loaded 16 pages from Office Hours, 10923.pdf
+2025-07-30 10:34:54,041 - INFO - Loaded 16 pages from Office Hours, 110424.pdf
+2025-07-30 10:34:55,780 - INFO - Loaded 17 pages from Office Hours, 111124.pdf
+2025-07-30 10:34:56,914 - INFO - Loaded 10 pages from Office Hours, 111824.pdf
+2025-07-30 10:34:58,490 - INFO - Loaded 12 pages from Office Hours, 112023.pdf
+2025-07-30 10:35:00,614 - INFO - Loaded 17 pages from Office Hours, 112524.pdf
+2025-07-30 10:35:03,008 - INFO - Loaded 22 pages from Office Hours, 112723.pdf
+2025-07-30 10:35:06,203 - INFO - Loaded 31 pages from Office Hours, 11823.pdf
+2025-07-30 10:35:08,346 - INFO - Loaded 20 pages from Office Hours, 120224.pdf
+2025-07-30 10:35:11,802 - INFO - Loaded 31 pages from Office Hours, 120423.pdf
+2025-07-30 10:35:13,984 - INFO - Loaded 21 pages from Office Hours, 120924.pdf
+2025-07-30 10:35:16,121 - INFO - Loaded 19 pages from Office Hours, 12112023.pdf
+2025-07-30 10:35:18,645 - INFO - Loaded 23 pages from Office Hours, 121624.pdf
+2025-07-30 10:35:21,100 - INFO - Loaded 22 pages from Office Hours, 121823.pdf
+2025-07-30 10:35:23,739 - INFO - Loaded 25 pages from Office Hours, 2272023.pdf
+2025-07-30 10:35:23,740 - INFO - Loaded 2067 pages from PDFs in documents
+2025-07-30 10:35:23,915 - INFO - Split into 7054 chunks
+2025-07-30 10:35:32,582 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 500 Internal Server Error"
+2025-07-30 10:35:32,582 - ERROR - Batch insert error: {'message': 'canceling statement due to statement timeout', 'code': '57014', 'hint': None, 'details': None}
+2025-07-30 10:35:45,047 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 500 Internal Server Error"
+2025-07-30 10:35:45,048 - ERROR - Batch insert error: {'message': 'canceling statement due to statement timeout', 'code': '57014', 'hint': None, 'details': None}
+2025-07-30 10:35:57,558 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 500 Internal Server Error"
+2025-07-30 10:35:57,559 - ERROR - Batch insert error: {'message': 'canceling statement due to statement timeout', 'code': '57014', 'hint': None, 'details': None}
+2025-07-30 10:35:57,559 - ERROR - Ingestion error: RetryError[<Future at 0x1b729270f10 state=finished raised APIError>]
+2025-07-30 10:46:59,304 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?select=id&limit=1 "HTTP/2 200 OK"
+2025-07-30 10:46:59,307 - INFO - Supabase connection successful: data=[] count=None
+2025-07-30 10:46:59,397 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/show_config "HTTP/2 404 Not Found"
+2025-07-30 10:46:59,398 - ERROR - Ingestion error: {'message': 'Could not find the function public.show_config(setting) in the schema cache', 'code': 'PGRST202', 'hint': None, 'details': 'Searched for the function public.show_config with parameter setting or with a single unnamed json/jsonb parameter, but no matches were found in the schema cache.'}
+2025-07-30 10:59:40,207 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?select=id&limit=1 "HTTP/2 200 OK"
+2025-07-30 10:59:40,210 - INFO - Supabase connection successful: data=[] count=None
+2025-07-30 10:59:40,315 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/pg_settings?select=setting&name=eq.statement_timeout "HTTP/2 404 Not Found"
+2025-07-30 10:59:40,316 - ERROR - Ingestion error: {'message': 'relation "public.pg_settings" does not exist', 'code': '42P01', 'hint': None, 'details': None}
+2025-07-30 11:11:27,994 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?select=id&limit=1 "HTTP/2 200 OK"
+2025-07-30 11:11:27,997 - INFO - Supabase connection successful: data=[] count=None
+2025-07-30 11:11:30,213 - INFO - Loaded 20 pages from Office Hours with Aaron Biner, 030325.pdf
+2025-07-30 11:11:31,323 - INFO - Loaded 8 pages from Office Hours with Aaron Biner, 031025.pdf
+2025-07-30 11:11:33,961 - INFO - Loaded 17 pages from Office Hours with Aaron Biner, 051925.pdf
+2025-07-30 11:11:36,533 - INFO - Loaded 22 pages from Office Hours with Zeus Shields, 032425.pdf
+2025-07-30 11:11:39,107 - INFO - Loaded 21 pages from Office Hours with Zeus Shields, 042224.pdf
+2025-07-30 11:11:41,236 - INFO - Loaded 19 pages from Office Hours, 01042023.pdf
+2025-07-30 11:11:42,667 - INFO - Loaded 13 pages from Office Hours, 010625.pdf
+2025-07-30 11:11:44,802 - INFO - Loaded 20 pages from Office Hours, 010824.pdf
+2025-07-30 11:11:47,412 - INFO - Loaded 24 pages from Office Hours, 011325.pdf
+2025-07-30 11:11:49,052 - INFO - Loaded 13 pages from Office Hours, 011524.pdf
+2025-07-30 11:11:50,126 - INFO - Loaded 10 pages from Office Hours, 01162023.pdf
+2025-07-30 11:11:51,450 - INFO - Loaded 11 pages from Office Hours, 012025.pdf
+2025-07-30 11:11:54,853 - INFO - Loaded 32 pages from Office Hours, 01232023.pdf
+2025-07-30 11:11:57,942 - INFO - Loaded 31 pages from Office Hours, 012324.pdf
+2025-07-30 11:11:59,467 - INFO - Loaded 14 pages from Office Hours, 012725.pdf
+2025-07-30 11:12:01,441 - INFO - Loaded 17 pages from Office Hours, 013023.pdf
+2025-07-30 11:12:04,076 - INFO - Loaded 23 pages from Office Hours, 013024.pdf
+2025-07-30 11:12:05,518 - INFO - Loaded 13 pages from Office Hours, 020325.pdf
+2025-07-30 11:12:06,833 - INFO - Loaded 9 pages from Office Hours, 020524.pdf
+2025-07-30 11:12:09,443 - INFO - Loaded 25 pages from Office Hours, 020623.pdf
+2025-07-30 11:12:11,201 - INFO - Loaded 16 pages from Office Hours, 021025.pdf
+2025-07-30 11:12:13,744 - INFO - Loaded 22 pages from Office Hours, 021224.pdf
+2025-07-30 11:12:16,672 - INFO - Loaded 20 pages from Office Hours, 02132023.pdf
+2025-07-30 11:12:17,741 - INFO - Loaded 9 pages from Office Hours, 021825.pdf
+2025-07-30 11:12:19,896 - INFO - Loaded 19 pages from Office Hours, 022024.pdf
+2025-07-30 11:12:22,141 - INFO - Loaded 21 pages from Office Hours, 02212023.pdf
+2025-07-30 11:12:23,307 - INFO - Loaded 11 pages from Office Hours, 022425.pdf
+2025-07-30 11:12:27,652 - INFO - Loaded 29 pages from Office Hours, 03062023.pdf
+2025-07-30 11:12:29,140 - INFO - Loaded 14 pages from Office Hours, 031224.pdf
+2025-07-30 11:12:30,546 - INFO - Loaded 13 pages from Office Hours, 031824.pdf
+2025-07-30 11:12:32,200 - INFO - Loaded 15 pages from Office Hours, 031825.pdf
+2025-07-30 11:12:34,117 - INFO - Loaded 18 pages from Office Hours, 032023.pdf
+2025-07-30 11:12:36,889 - INFO - Loaded 25 pages from Office Hours, 032524.pdf
+2025-07-30 11:12:39,645 - INFO - Loaded 26 pages from Office Hours, 032723.pdf
+2025-07-30 11:12:41,055 - INFO - Loaded 12 pages from Office Hours, 033125.pdf
+2025-07-30 11:12:43,926 - INFO - Loaded 28 pages from Office Hours, 040124.pdf
+2025-07-30 11:12:45,851 - INFO - Loaded 15 pages from Office Hours, 040423.pdf
+2025-07-30 11:12:48,538 - INFO - Loaded 26 pages from Office Hours, 040824.pdf
+2025-07-30 11:12:52,424 - INFO - Loaded 39 pages from Office Hours, 041524.pdf
+2025-07-30 11:12:55,375 - INFO - Loaded 27 pages from Office Hours, 041723.pdf
+2025-07-30 11:12:56,359 - INFO - Loaded 9 pages from Office Hours, 042423.pdf
+2025-07-30 11:12:57,622 - INFO - Loaded 10 pages from Office Hours, 042825.pdf
+2025-07-30 11:12:58,364 - INFO - Loaded 7 pages from Office Hours, 043024.pdf
+2025-07-30 11:13:00,458 - INFO - Loaded 18 pages from Office Hours, 050123.pdf
+2025-07-30 11:13:03,917 - INFO - Loaded 31 pages from Office Hours, 050525.pdf
+2025-07-30 11:13:06,540 - INFO - Loaded 25 pages from Office Hours, 050823.pdf
+2025-07-30 11:13:07,865 - INFO - Loaded 12 pages from Office Hours, 051225.pdf
+2025-07-30 11:13:10,559 - INFO - Loaded 24 pages from Office Hours, 051324.pdf
+2025-07-30 11:13:13,255 - INFO - Loaded 24 pages from Office Hours, 051523.pdf
+2025-07-30 11:13:16,052 - INFO - Loaded 27 pages from Office Hours, 052024.pdf
+2025-07-30 11:13:18,199 - INFO - Loaded 19 pages from Office Hours, 052223.pdf
+2025-07-30 11:13:19,508 - INFO - Loaded 12 pages from Office Hours, 052623.pdf
+2025-07-30 11:13:20,733 - INFO - Loaded 11 pages from Office Hours, 052824.pdf
+2025-07-30 11:13:21,700 - INFO - Loaded 8 pages from Office Hours, 053023.pdf
+2025-07-30 11:13:24,005 - INFO - Loaded 22 pages from Office Hours, 060225.pdf
+2025-07-30 11:13:26,801 - INFO - Loaded 26 pages from Office Hours, 060324.pdf
+2025-07-30 11:13:29,578 - INFO - Loaded 28 pages from Office Hours, 060523.pdf
+2025-07-30 11:13:32,388 - INFO - Loaded 26 pages from Office Hours, 061024.pdf
+2025-07-30 11:13:33,507 - INFO - Loaded 10 pages from Office Hours, 061025.pdf
+2025-07-30 11:13:35,703 - INFO - Loaded 21 pages from Office Hours, 061223.pdf
+2025-07-30 11:13:38,410 - INFO - Loaded 24 pages from Office Hours, 061625.pdf
+2025-07-30 11:13:39,896 - INFO - Loaded 11 pages from Office Hours, 061724.pdf
+2025-07-30 11:13:42,004 - INFO - Loaded 18 pages from Office Hours, 061923.pdf
+2025-07-30 11:13:43,950 - INFO - Loaded 15 pages from Office Hours, 062325.pdf
+2025-07-30 11:13:44,772 - INFO - Loaded 7 pages from Office Hours, 062424.pdf
+2025-07-30 11:13:46,238 - INFO - Loaded 12 pages from Office Hours, 063025.pdf
+2025-07-30 11:13:49,404 - INFO - Loaded 30 pages from Office Hours, 070124.pdf
+2025-07-30 11:13:52,529 - INFO - Loaded 30 pages from Office Hours, 070323.pdf
+2025-07-30 11:13:54,515 - INFO - Loaded 20 pages from Office Hours, 070824.pdf
+2025-07-30 11:13:56,120 - INFO - Loaded 15 pages from Office Hours, 071023.pdf
+2025-07-30 11:13:58,396 - INFO - Loaded 23 pages from Office Hours, 071524.pdf
+2025-07-30 11:14:00,762 - INFO - Loaded 23 pages from Office Hours, 071723.pdf
+2025-07-30 11:14:03,510 - INFO - Loaded 25 pages from Office Hours, 072224.pdf
+2025-07-30 11:14:05,095 - INFO - Loaded 13 pages from Office Hours, 072924.pdf
+2025-07-30 11:14:06,503 - INFO - Loaded 13 pages from Office Hours, 073123.pdf
+2025-07-30 11:14:09,168 - INFO - Loaded 21 pages from Office Hours, 080723.pdf
+2025-07-30 11:14:11,716 - INFO - Loaded 24 pages from Office Hours, 081224.pdf
+2025-07-30 11:14:14,039 - INFO - Loaded 23 pages from Office Hours, 081423.pdf
+2025-07-30 11:14:15,089 - INFO - Loaded 9 pages from Office Hours, 082024.pdf
+2025-07-30 11:14:16,714 - INFO - Loaded 13 pages from Office Hours, 082123.pdf
+2025-07-30 11:14:19,360 - INFO - Loaded 26 pages from Office Hours, 082624.pdf
+2025-07-30 11:14:21,152 - INFO - Loaded 17 pages from Office Hours, 082823.pdf
+2025-07-30 11:14:22,216 - INFO - Loaded 11 pages from Office Hours, 090324.pdf
+2025-07-30 11:14:24,414 - INFO - Loaded 15 pages from Office Hours, 090924.pdf
+2025-07-30 11:14:26,673 - INFO - Loaded 23 pages from Office Hours, 091123.pdf
+2025-07-30 11:14:29,916 - INFO - Loaded 27 pages from Office Hours, 091624.pdf
+2025-07-30 11:14:31,300 - INFO - Loaded 12 pages from Office Hours, 091823.pdf
+2025-07-30 11:14:33,084 - INFO - Loaded 16 pages from Office Hours, 092324.pdf
+2025-07-30 11:14:34,660 - INFO - Loaded 15 pages from Office Hours, 092523.pdf
+2025-07-30 11:14:36,714 - INFO - Loaded 13 pages from Office Hours, 093024.pdf
+2025-07-30 11:14:37,824 - INFO - Loaded 9 pages from Office Hours, 100724.pdf
+2025-07-30 11:14:39,835 - INFO - Loaded 17 pages from Office Hours, 101424.pdf
+2025-07-30 11:14:41,743 - INFO - Loaded 17 pages from Office Hours, 102124.pdf
+2025-07-30 11:14:44,027 - INFO - Loaded 22 pages from Office Hours, 10223.pdf
+2025-07-30 11:14:45,036 - INFO - Loaded 10 pages from Office Hours, 102423.pdf
+2025-07-30 11:14:46,104 - INFO - Loaded 9 pages from Office Hours, 102824.pdf
+2025-07-30 11:14:48,025 - INFO - Loaded 16 pages from Office Hours, 10923.pdf
+2025-07-30 11:14:49,949 - INFO - Loaded 16 pages from Office Hours, 110424.pdf
+2025-07-30 11:14:51,772 - INFO - Loaded 17 pages from Office Hours, 111124.pdf
+2025-07-30 11:14:52,904 - INFO - Loaded 10 pages from Office Hours, 111824.pdf
+2025-07-30 11:14:54,605 - INFO - Loaded 12 pages from Office Hours, 112023.pdf
+2025-07-30 11:14:56,357 - INFO - Loaded 17 pages from Office Hours, 112524.pdf
+2025-07-30 11:14:58,667 - INFO - Loaded 22 pages from Office Hours, 112723.pdf
+2025-07-30 11:15:01,815 - INFO - Loaded 31 pages from Office Hours, 11823.pdf
+2025-07-30 11:15:03,965 - INFO - Loaded 20 pages from Office Hours, 120224.pdf
+2025-07-30 11:15:07,495 - INFO - Loaded 31 pages from Office Hours, 120423.pdf
+2025-07-30 11:15:09,659 - INFO - Loaded 21 pages from Office Hours, 120924.pdf
+2025-07-30 11:15:11,855 - INFO - Loaded 19 pages from Office Hours, 12112023.pdf
+2025-07-30 11:15:14,366 - INFO - Loaded 23 pages from Office Hours, 121624.pdf
+2025-07-30 11:15:16,803 - INFO - Loaded 22 pages from Office Hours, 121823.pdf
+2025-07-30 11:15:19,468 - INFO - Loaded 25 pages from Office Hours, 2272023.pdf
+2025-07-30 11:15:19,469 - INFO - Loaded 2067 pages from PDFs in documents
+2025-07-30 11:15:19,640 - INFO - Split into 7054 chunks
+2025-07-30 11:15:19,683 - INFO - Inserting batch 1 with 25 chunks
+2025-07-30 11:15:35,647 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:15:35,649 - INFO - Inserted 25 chunks successfully in 15.97 seconds
+2025-07-30 11:15:35,649 - INFO - Inserting batch 2 with 25 chunks
+2025-07-30 11:15:48,435 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:15:48,437 - INFO - Inserted 25 chunks successfully in 12.79 seconds
+2025-07-30 11:15:48,437 - INFO - Inserting batch 3 with 25 chunks
+2025-07-30 11:16:02,324 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:16:02,326 - INFO - Inserted 25 chunks successfully in 13.89 seconds
+2025-07-30 11:16:02,327 - INFO - Inserting batch 4 with 25 chunks
+2025-07-30 11:16:17,343 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:16:17,345 - INFO - Inserted 25 chunks successfully in 15.02 seconds
+2025-07-30 11:16:17,345 - INFO - Inserting batch 5 with 25 chunks
+2025-07-30 11:16:30,862 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:16:30,864 - INFO - Inserted 25 chunks successfully in 13.52 seconds
+2025-07-30 11:16:30,864 - INFO - Inserting batch 6 with 25 chunks
+2025-07-30 11:16:45,327 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:16:45,329 - INFO - Inserted 25 chunks successfully in 14.46 seconds
+2025-07-30 11:16:45,329 - INFO - Inserting batch 7 with 25 chunks
+2025-07-30 11:17:01,833 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:17:01,835 - INFO - Inserted 25 chunks successfully in 16.51 seconds
+2025-07-30 11:17:01,835 - INFO - Inserting batch 8 with 25 chunks
+2025-07-30 11:17:20,604 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:17:20,606 - INFO - Inserted 25 chunks successfully in 18.77 seconds
+2025-07-30 11:17:20,606 - INFO - Inserting batch 9 with 25 chunks
+2025-07-30 11:17:33,589 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:17:33,590 - INFO - Inserted 25 chunks successfully in 12.98 seconds
+2025-07-30 11:17:33,590 - INFO - Inserting batch 10 with 25 chunks
+2025-07-30 11:17:48,678 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:17:48,680 - INFO - Inserted 25 chunks successfully in 15.09 seconds
+2025-07-30 11:17:48,680 - INFO - Inserting batch 11 with 25 chunks
+2025-07-30 11:18:02,345 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:18:02,347 - INFO - Inserted 25 chunks successfully in 13.67 seconds
+2025-07-30 11:18:02,347 - INFO - Inserting batch 12 with 25 chunks
+2025-07-30 11:18:07,863 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:18:07,864 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: I'm\tnot\tgoing\tto\tdo\tthat\tacross\tthe\tboard\tfor\tall\tof\tthem\tbecause\tit\twouldn't\tmake\tsense.\tIt\nwould\tjust\tbe\ta\twhole\tbunch\tof\twork\tfor\tnothing.\tBut\tfor\ton\tmy\ttop\tseed\tkeywords,\tthe\ttop\t50,\nusually\tgoes\tdown\tto\tabout\t20,\thas\tgone\tto\t50\ton\tone\toccasion.\nIt\tusually\tsuits\tme\tit's\tbetween\t10\tand\t20.\tOn\tthose\ttop\t10\tor\t20\tseed\tkeywords\tor\tthe\tsort\tof\nsuperstars,\tthe\texacts,\tthe\tfuel\tin\tthe\tproduct\tand\treally\tgiving\tit\tthe\tmost\tmomentum\tand\tthe\nhighest\tsearch\tvolume,\tranking\tjuice,\tthe\tquote.\tData\tdiving\tand\tBrandon's\tterminology.\nI\tam\t100%\tchecking\tthose\tacross\tmultiple\tplatforms.\tAnd\tthis\tcould\tbe\tpart\tof\tthat\tvisual,\ta\nvisual\tcheck\tas\tpart\tof\tthat\tprocess.\tBut\twould\tit\tbe\ta\tcore\tpart?\tNo.\nAnd\twould\tI\tinclude\tis\ta\treal\tspecific\tstep?\tNot\treally\tfor\tthe\treasons\tI've\tshared.\tSo\tthat\tgives\nyou\ta\tvery\tclear\tand\tdetailed\tanswer\tto\tthe\tquestion.\tAny\tothers,\tMolly?\tThat's\tall\tfor\tthe\tpre\nsubmitted.\nI\tthink\tthere\tis\tone\tsending\ta\tprivate\tmessage.\tCool.\tCool., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:18:31,976 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:18:31,977 - INFO - Inserted 25 chunks successfully in 20.10 seconds
+2025-07-30 11:18:31,978 - INFO - Inserting batch 13 with 25 chunks
+2025-07-30 11:18:47,720 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:18:47,722 - INFO - Inserted 25 chunks successfully in 15.74 seconds
+2025-07-30 11:18:47,722 - INFO - Inserting batch 14 with 25 chunks
+2025-07-30 11:19:00,751 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:19:00,753 - INFO - Inserted 25 chunks successfully in 13.03 seconds
+2025-07-30 11:19:00,753 - INFO - Inserting batch 15 with 25 chunks
+2025-07-30 11:19:14,510 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:19:14,512 - INFO - Inserted 25 chunks successfully in 13.76 seconds
+2025-07-30 11:19:14,512 - INFO - Inserting batch 16 with 25 chunks
+2025-07-30 11:19:29,015 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:19:29,017 - INFO - Inserted 25 chunks successfully in 14.50 seconds
+2025-07-30 11:19:29,017 - INFO - Inserting batch 17 with 25 chunks
+2025-07-30 11:19:49,084 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:19:49,086 - INFO - Inserted 25 chunks successfully in 20.07 seconds
+2025-07-30 11:19:49,086 - INFO - Inserting batch 18 with 25 chunks
+2025-07-30 11:20:02,202 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:20:02,204 - INFO - Inserted 25 chunks successfully in 13.12 seconds
+2025-07-30 11:20:02,204 - INFO - Inserting batch 19 with 25 chunks
+2025-07-30 11:20:16,387 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:20:16,389 - INFO - Inserted 25 chunks successfully in 14.18 seconds
+2025-07-30 11:20:16,389 - INFO - Inserting batch 20 with 25 chunks
+2025-07-30 11:20:28,912 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:20:28,914 - INFO - Inserted 25 chunks successfully in 12.52 seconds
+2025-07-30 11:20:28,914 - INFO - Inserting batch 21 with 25 chunks
+2025-07-30 11:20:45,639 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:20:45,641 - INFO - Inserted 25 chunks successfully in 16.73 seconds
+2025-07-30 11:20:45,641 - INFO - Inserting batch 22 with 25 chunks
+2025-07-30 11:21:02,328 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:21:02,330 - INFO - Inserted 25 chunks successfully in 16.69 seconds
+2025-07-30 11:21:02,330 - INFO - Inserting batch 23 with 25 chunks
+2025-07-30 11:21:17,360 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:21:17,362 - INFO - Inserted 25 chunks successfully in 15.03 seconds
+2025-07-30 11:21:17,363 - INFO - Inserting batch 24 with 25 chunks
+2025-07-30 11:21:31,022 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:21:31,023 - INFO - Inserted 25 chunks successfully in 13.66 seconds
+2025-07-30 11:21:31,023 - INFO - Inserting batch 25 with 25 chunks
+2025-07-30 11:21:45,868 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:21:45,870 - INFO - Inserted 25 chunks successfully in 14.85 seconds
+2025-07-30 11:21:45,870 - INFO - Inserting batch 26 with 25 chunks
+2025-07-30 11:21:59,229 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:21:59,231 - INFO - Inserted 25 chunks successfully in 13.36 seconds
+2025-07-30 11:21:59,231 - INFO - Inserting batch 27 with 25 chunks
+2025-07-30 11:22:14,708 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:22:14,710 - INFO - Inserted 25 chunks successfully in 15.48 seconds
+2025-07-30 11:22:14,710 - INFO - Inserting batch 28 with 25 chunks
+2025-07-30 11:22:29,194 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:22:29,195 - INFO - Inserted 25 chunks successfully in 14.49 seconds
+2025-07-30 11:22:29,196 - INFO - Inserting batch 29 with 25 chunks
+2025-07-30 11:22:40,402 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:22:40,403 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5000 milliseconds with 2920 bytes received (Input: and\tdimensions\tand\tthe\tfulfillment\tfees\tmight\tbe\tdifferent.\tSo\tlook\tat\tthe\tFBA\tand\tfulfillment\nfees\tand\tsee\tif\tthat's\tthe\tdifference.\nMaybe\tthe\tsize\tof\tthe\tproduct\tis\tdifferent.\tSo\tone\tis\tselling\ta\tlarger\tunit\tand\tthe\tother\tone's\nselling\ta\tsmaller\tone.\tMaybe\tthere's\ta\tpricing\terror\tor\tfulfillment,\tlike\ta\tdimensions\terror\ton\tthe\none\tcompetitor\tand\tthey\tdon't\teven\tknow\tit.\nAnd\tthey're\tlosing\tmoney\tevery\tunit\tand\tdon't\teven\tknow\tit.\tThat\thappens.\tBelieve\tme,\tthat\nhappens\tto\tevery\tseller.\nSo\ta\tlarge\tcorporation\tmight\tlose\ttrack\tof\tthat\tfrom\ta\tsingle\tskew\tand\tjust\tdumping\tmoney\tto\nAmazon\tand\tnot\teven\tknow\tit.\tIt's\tvery\tscary.\tSo\tgo\tin\tand\tthen\tgo\tand\tresearch\tthe\tproduct,\nfind\tout\twhat\tthe\tweight\tdimensions\treally\tare\tand\tfind\tout\twho's\tright.\nSo\tthat\twould\tbe\tthe\tway\tthat\tI\twould\tprobably\tdo\tthat.\tAnd\twhat\tthe\tprice\twould\treally\tbe.\tSo\nif\tyou\tgo\tto\tAlibaba\tand\tyou\tlook\tat\tthe\tgeneral\trange\tof\tcost,\tthen\tmaybe\tthat'll\thelp\tyou., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:22:58,209 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:22:58,211 - INFO - Inserted 25 chunks successfully in 13.80 seconds
+2025-07-30 11:22:58,211 - INFO - Inserting batch 30 with 25 chunks
+2025-07-30 11:23:17,314 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:23:17,316 - INFO - Inserted 25 chunks successfully in 19.11 seconds
+2025-07-30 11:23:17,316 - INFO - Inserting batch 31 with 25 chunks
+2025-07-30 11:23:33,878 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:23:33,879 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: So\thave\tvisibility\ton\tthe\tthings\tyou\tneed\tto\thave\tvisibility\ton\tand\tthen\tjust\tmake\tthe\tchange\tand\nthen\tjust\tmonitor\tit\tfor\ta\tfew\tdays.\tTo\tthe\tsystem,\tand\tyou\tend\tup\tyou\tend\tup\thurting\tsome\nkeywords\thelping\tsome\tkeywords\tmake\tsure\tyou're\ttracking\tthe\tkeywords\twhile\twhile\tmaking, Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:23:50,909 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:23:50,911 - INFO - Inserted 25 chunks successfully in 13.03 seconds
+2025-07-30 11:23:50,911 - INFO - Inserting batch 32 with 25 chunks
+2025-07-30 11:24:03,636 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:24:03,638 - INFO - Inserted 25 chunks successfully in 12.73 seconds
+2025-07-30 11:24:03,638 - INFO - Inserting batch 33 with 25 chunks
+2025-07-30 11:24:18,626 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:24:18,628 - INFO - Inserted 25 chunks successfully in 14.99 seconds
+2025-07-30 11:24:18,628 - INFO - Inserting batch 34 with 25 chunks
+2025-07-30 11:24:31,663 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:24:31,664 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: Now,\tI\tthink\tfor\tme,\tI\tmean,\tI\thave\tmy\town\tlife\tcriteria.\tLike\tfor\tme,\tif\tI\tsee\tpeople\tsee\nconvergence\t10%,\tI\tmean,\tagain,\tthis\tworks\ton\tmy\tproducts.\tAgain,\tfor\tthose\twho\tare\tsitting\nhigh\tprice\titems\tor\teven\toversized,\tyou\tcannot\teven\ttalk\tabout\t10%\tbecause\tthey're\tconverging\ngoing\tto\tbe\tprobably\t2%,\t3%.\nAgain,\tI\tmean,\tI\tsell\tthe\tproducts\tin\tthe\t2025\trange.\tSo\tfor\tme,\tmy\thero\twon\tprobably\t18%,\t19%\nconversion.\tSo\tfor\tme,\tif\tI\tlaunch\tsomething\tsimilar\tand\tI'm\tat\t10%,\tand\tI'm\tbreaking\teven\tor\nmaybe\tlosing\ta\tlittle\tbit\tof\tmoney,\tthat's\ta\tgood\tsign\tfor\tme\tthat\tI\tshould\tnot\tfeel\tthe\tlaunch\nagain.\nBut\talso\twhat\twe\ttry\tto\tdo,\twe\ttry\tto\tlaunch\twith\tmany\tvariations\tand\tnot\tnecessarily\tthose\nvariations\twe're\tgoing\tto\tsell.\tWe\tprobably\tordered\t50\tunits,\t16\tunits\tof\tthem\tjust\tbecause\twe\nwant\tto\tenroll\tthem\tin\tvine\treviews.\tSo\tthat\tway,\tonce\twe\tcomplete\tthe\tfirst\tmonth,\twe\thave\tat\nleast\t80\treviews\tor\t100\treviews., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:24:48,699 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:24:48,700 - INFO - Inserted 25 chunks successfully in 13.03 seconds
+2025-07-30 11:24:48,700 - INFO - Inserting batch 35 with 25 chunks
+2025-07-30 11:25:03,468 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:25:03,470 - INFO - Inserted 25 chunks successfully in 14.77 seconds
+2025-07-30 11:25:03,470 - INFO - Inserting batch 36 with 25 chunks
+2025-07-30 11:25:19,422 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:25:19,424 - INFO - Inserted 25 chunks successfully in 15.95 seconds
+2025-07-30 11:25:19,425 - INFO - Inserting batch 37 with 25 chunks
+2025-07-30 11:25:32,599 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:25:32,601 - INFO - Inserted 25 chunks successfully in 13.18 seconds
+2025-07-30 11:25:32,601 - INFO - Inserting batch 38 with 25 chunks
+2025-07-30 11:25:49,469 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:25:49,471 - INFO - Inserted 25 chunks successfully in 16.87 seconds
+2025-07-30 11:25:49,471 - INFO - Inserting batch 39 with 25 chunks
+2025-07-30 11:26:04,792 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:26:04,793 - INFO - Inserted 25 chunks successfully in 15.32 seconds
+2025-07-30 11:26:04,794 - INFO - Inserting batch 40 with 25 chunks
+2025-07-30 11:26:20,132 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:26:20,133 - INFO - Inserted 25 chunks successfully in 15.34 seconds
+2025-07-30 11:26:20,134 - INFO - Inserting batch 41 with 25 chunks
+2025-07-30 11:26:37,146 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:26:37,148 - INFO - Inserted 25 chunks successfully in 17.01 seconds
+2025-07-30 11:26:37,148 - INFO - Inserting batch 42 with 25 chunks
+2025-07-30 11:26:50,935 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:26:50,937 - INFO - Inserted 25 chunks successfully in 13.79 seconds
+2025-07-30 11:26:50,937 - INFO - Inserting batch 43 with 25 chunks
+2025-07-30 11:27:04,944 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:27:04,946 - INFO - Inserted 25 chunks successfully in 14.01 seconds
+2025-07-30 11:27:04,947 - INFO - Inserting batch 44 with 25 chunks
+2025-07-30 11:27:18,038 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:27:18,040 - INFO - Inserted 25 chunks successfully in 13.09 seconds
+2025-07-30 11:27:18,040 - INFO - Inserting batch 45 with 25 chunks
+2025-07-30 11:27:30,839 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:27:30,840 - INFO - Inserted 25 chunks successfully in 12.80 seconds
+2025-07-30 11:27:30,840 - INFO - Inserting batch 46 with 25 chunks
+2025-07-30 11:27:48,081 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:27:48,083 - INFO - Inserted 25 chunks successfully in 17.24 seconds
+2025-07-30 11:27:48,083 - INFO - Inserting batch 47 with 25 chunks
+2025-07-30 11:28:00,807 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:28:00,809 - INFO - Inserted 25 chunks successfully in 12.73 seconds
+2025-07-30 11:28:00,809 - INFO - Inserting batch 48 with 25 chunks
+2025-07-30 11:28:16,490 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:28:16,492 - INFO - Inserted 25 chunks successfully in 15.68 seconds
+2025-07-30 11:28:16,492 - INFO - Inserting batch 49 with 25 chunks
+2025-07-30 11:28:35,179 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:28:35,181 - INFO - Inserted 25 chunks successfully in 18.69 seconds
+2025-07-30 11:28:35,181 - INFO - Inserting batch 50 with 25 chunks
+2025-07-30 11:28:51,668 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:28:51,670 - INFO - Inserted 25 chunks successfully in 16.49 seconds
+2025-07-30 11:28:51,670 - INFO - Inserting batch 51 with 25 chunks
+2025-07-30 11:29:09,996 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:29:09,998 - INFO - Inserted 25 chunks successfully in 18.33 seconds
+2025-07-30 11:29:09,998 - INFO - Inserting batch 52 with 25 chunks
+2025-07-30 11:29:24,036 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:29:24,038 - INFO - Inserted 25 chunks successfully in 14.04 seconds
+2025-07-30 11:29:24,038 - INFO - Inserting batch 53 with 25 chunks
+2025-07-30 11:29:36,011 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:29:36,013 - INFO - Inserted 25 chunks successfully in 11.98 seconds
+2025-07-30 11:29:36,013 - INFO - Inserting batch 54 with 25 chunks
+2025-07-30 11:29:52,305 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:29:52,307 - INFO - Inserted 25 chunks successfully in 16.29 seconds
+2025-07-30 11:29:52,307 - INFO - Inserting batch 55 with 25 chunks
+2025-07-30 11:30:09,030 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:30:09,032 - INFO - Inserted 25 chunks successfully in 16.73 seconds
+2025-07-30 11:30:09,032 - INFO - Inserting batch 56 with 25 chunks
+2025-07-30 11:30:28,493 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:30:28,494 - INFO - Inserted 25 chunks successfully in 19.46 seconds
+2025-07-30 11:30:28,495 - INFO - Inserting batch 57 with 25 chunks
+2025-07-30 11:30:43,408 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:30:43,409 - INFO - Inserted 25 chunks successfully in 14.91 seconds
+2025-07-30 11:30:43,409 - INFO - Inserting batch 58 with 25 chunks
+2025-07-30 11:30:58,344 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:30:58,345 - INFO - Inserted 25 chunks successfully in 14.94 seconds
+2025-07-30 11:30:58,346 - INFO - Inserting batch 59 with 25 chunks
+2025-07-30 11:31:13,545 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:31:13,546 - INFO - Inserted 25 chunks successfully in 15.20 seconds
+2025-07-30 11:31:13,546 - INFO - Inserting batch 60 with 25 chunks
+2025-07-30 11:31:34,784 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:31:34,786 - INFO - Inserted 25 chunks successfully in 21.24 seconds
+2025-07-30 11:31:34,786 - INFO - Inserting batch 61 with 25 chunks
+2025-07-30 11:31:50,346 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:31:50,349 - INFO - Inserted 25 chunks successfully in 15.56 seconds
+2025-07-30 11:31:50,349 - INFO - Inserting batch 62 with 25 chunks
+2025-07-30 11:31:55,584 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:31:55,585 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: Was\tit?\tWho\twas\tit?\tIt's\tZeus\tstepped\tin.\nThat's\talways\tgood.\tYeah.\tSo\tI\tcan\tshow\tyou\tguys\tsomething.\nI\tknow\tthat\twe\tdid.\tI\tknow\tthat\tI\tshowed\tyou\tlast\tweek\tand\tthen\tI\tdon't\tknow\thow\tmany\tof\tyou\nguys\tdid\ta.\tWent\tto\tthe\toffice\thours\tfor\tdata\tdive,\tbut\tI\tthat\treplay\twill\tcome\tout\tand\tthen\tI\twalk\nthrough\tsome\tadditional\tscreenshots\ttoday,\twhich\tI\tthink\tare\tgoing\tto\tbe\tpretty\trelevant\tto.\nLooking\tat\tadvanced\tdata,\tbut\tmaybe\tcheck\tthat\treplay\tout\tas\twell.\nLook\tfor\tthat\twith\tthe\tdata\tdive\tcontent.\tMike,\tit'll\tbe\tup\ton\tYouTube,\tshortly.\tI'm\tsure.\nMike,\thow's\tit\tgoing?\tHey,\tBrandon.\tEverything\tis\tgood.\tHow\tabout\tyou?\tGood.\nGood.\tSo\tI\twish\tyou\thad\ta\tpleasant\ttrip\tin\tChina.\tThanks,\tman.\nYeah,\tit\twas.\tIt\twas\ta\tgood\ttrip.\tYeah.\nWell,\tthis\tquestion\tis\tmore\tactually\tabout\tyou\tthan\tit's\tabout\tPPC.\tIf\tyou\tdon't\tmind,\tit's\tabout.\nLike,\twhat's\tyour\tmain\tthing?\tLike,\tyou\tknow,\tStephen\tCovey\tsaid,\tthe\tmain\tthing\tis\tto\tkeep\tthe\nmain\tthing,\tthe\tmain\tthing., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:32:17,146 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:32:17,148 - INFO - Inserted 25 chunks successfully in 17.55 seconds
+2025-07-30 11:32:17,148 - INFO - Inserting batch 63 with 25 chunks
+2025-07-30 11:32:33,380 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:32:33,381 - INFO - Inserted 25 chunks successfully in 16.23 seconds
+2025-07-30 11:32:33,381 - INFO - Inserting batch 64 with 25 chunks
+2025-07-30 11:32:52,412 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:32:52,414 - INFO - Inserted 25 chunks successfully in 19.03 seconds
+2025-07-30 11:32:52,414 - INFO - Inserting batch 65 with 25 chunks
+2025-07-30 11:33:10,849 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:33:10,851 - INFO - Inserted 25 chunks successfully in 18.44 seconds
+2025-07-30 11:33:10,851 - INFO - Inserting batch 66 with 25 chunks
+2025-07-30 11:33:24,366 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:33:24,367 - INFO - Inserted 25 chunks successfully in 13.52 seconds
+2025-07-30 11:33:24,368 - INFO - Inserting batch 67 with 25 chunks
+2025-07-30 11:33:36,922 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:33:36,924 - INFO - Inserted 25 chunks successfully in 12.56 seconds
+2025-07-30 11:33:36,924 - INFO - Inserting batch 68 with 25 chunks
+2025-07-30 11:33:54,411 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:33:54,412 - INFO - Inserted 25 chunks successfully in 17.49 seconds
+2025-07-30 11:33:54,412 - INFO - Inserting batch 69 with 25 chunks
+2025-07-30 11:34:14,051 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:34:14,053 - INFO - Inserted 25 chunks successfully in 19.64 seconds
+2025-07-30 11:34:14,053 - INFO - Inserting batch 70 with 25 chunks
+2025-07-30 11:34:33,033 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:34:33,035 - INFO - Inserted 25 chunks successfully in 18.98 seconds
+2025-07-30 11:34:33,035 - INFO - Inserting batch 71 with 25 chunks
+2025-07-30 11:34:54,221 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:34:54,223 - INFO - Inserted 25 chunks successfully in 21.19 seconds
+2025-07-30 11:34:54,223 - INFO - Inserting batch 72 with 25 chunks
+2025-07-30 11:35:07,293 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:35:07,294 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 910 bytes received (Input: thousand\ta\tmonth\tis\tthe\tquestion\tthe\tquestion\tthe\tanswer\tis\tthey're\tnumber\tone\tfor\tgarlic\npress\tthey're\tnumber\t16\tfor\tgarlic\tmince\tor\ttool\tthe\tnumber\t31\tfor\tstainless\tsteel\tgarlic\tpress\nand\tlike\tnumber\ttwo\tfor\tgarlic\tpresser\tnumber\tseven\tfor\tbest\tgarlic\tpress\tso\twe've\tkind\tof\nbroken\tdown\tand\tand\tthen\tlike\tfigured\tout\tall\tright\thow\twhat\tare\tthe\tmain\tkeywords\tthat\nthey're\tranked\ton\tand\twhich\tones\taren't\tthey\twell\tthey're\tdoing\ta\tterrible\tjob\tat\tgarlic\tmincer\tat\ngarlic\tcrusher\tat\tgarlic\tpress\tstainless\tsteel\tat\tmincer\tat\tstainless\tsteel\tgarlic\tpress\tright\tthey're\ndoing\ta\tbad\tjob\tat\tthese\tbecause\tthey\tdidn't\twrite\ttheir\tlisting\tproperly\tand\tso\twhat\tthis\tallows\nus\tto\tdo\tis\tonce\twe\tlook\tat\tthese\t20\tbest\tsellers\tof\tgarlic\tpresses\ton\tamazon\twe\tsee\twhat\tall\tof\nthem\tare\tdoing\tright\tand\twrong\twhen\tit\tcomes\tto\tall\tthe\tkeywords\tthat\tare\tdriving\tsales\twe\tcan\nmake\ta\tdecision\tcan\twe\tdo\ta\tbetter\tjob\tthan\tany\tof\tthese\tguys\tcan\twe\trealistically\thow, Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:35:25,564 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:35:25,566 - INFO - Inserted 25 chunks successfully in 14.26 seconds
+2025-07-30 11:35:25,566 - INFO - Inserting batch 73 with 25 chunks
+2025-07-30 11:35:39,968 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:35:39,970 - INFO - Inserted 25 chunks successfully in 14.40 seconds
+2025-07-30 11:35:39,970 - INFO - Inserting batch 74 with 25 chunks
+2025-07-30 11:35:55,077 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:35:55,079 - INFO - Inserted 25 chunks successfully in 15.11 seconds
+2025-07-30 11:35:55,079 - INFO - Inserting batch 75 with 25 chunks
+2025-07-30 11:36:12,448 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:36:12,450 - INFO - Inserted 25 chunks successfully in 17.37 seconds
+2025-07-30 11:36:12,450 - INFO - Inserting batch 76 with 25 chunks
+2025-07-30 11:36:27,359 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:36:27,361 - INFO - Inserted 25 chunks successfully in 14.91 seconds
+2025-07-30 11:36:27,361 - INFO - Inserting batch 77 with 25 chunks
+2025-07-30 11:36:42,333 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:36:42,334 - INFO - Inserted 25 chunks successfully in 14.97 seconds
+2025-07-30 11:36:42,334 - INFO - Inserting batch 78 with 25 chunks
+2025-07-30 11:36:55,525 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:36:55,526 - INFO - Inserted 25 chunks successfully in 13.19 seconds
+2025-07-30 11:36:55,526 - INFO - Inserting batch 79 with 25 chunks
+2025-07-30 11:37:09,484 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:37:09,485 - INFO - Inserted 25 chunks successfully in 13.96 seconds
+2025-07-30 11:37:09,485 - INFO - Inserting batch 80 with 25 chunks
+2025-07-30 11:37:26,567 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:37:26,569 - INFO - Inserted 25 chunks successfully in 17.08 seconds
+2025-07-30 11:37:26,570 - INFO - Inserting batch 81 with 25 chunks
+2025-07-30 11:37:42,809 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:37:42,809 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5000 milliseconds with 1 bytes received (Input: products\tand\tdo\tall\tof\tthat.\tSo\ta\tfriend\tof\tmine\tis\tabout\tto\tsell\this\tbrand.\tI\tactually\thelped\thim\nstart\this\tbrand,\tlike\tin\t20,\t2018.\nAnd\the's\tabout\tto\thave\ta\tnine\tfigure\texit\twith\ta\tskincare\tbrand.\tSelling\tfor\tselling\this\tbrand\tfor\nover\ta\thundred\tmillion\tdollars.\tWell,\the\tbecame\tan\texpert\tat\tthat.\nAnd\tI\tcan\tpick\this\tbrain\ton\tlike\tjust\ta\tbullet\tpoint.\tWhat\tare\tthe\tthings\the\tdid?\tBut\tI\tknow\tthat\nhe\taggressively\tran\ta\tlot\tof\tads\tto\this\town\twebsite\tand\trelied\ton\tthe\tHalo\ttraffic\tto\tAmazon.\tAnd\nin\tthe\tsubscribe\tand\tsave\tLTV\tvalue\ton\this\twebsite\tand\ton\tAmazon\tto\tsurvive\tbecause\tthe\tads\nare\tnot\tprofitable\tlike\tyour\trow\tas\tis\tnot\tenough\tto\tcover\tyour\tmargin\ton\tthe\tfirst\torder., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:38:00,980 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:38:00,982 - INFO - Inserted 25 chunks successfully in 14.16 seconds
+2025-07-30 11:38:00,982 - INFO - Inserting batch 82 with 25 chunks
+2025-07-30 11:38:23,645 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:38:23,647 - INFO - Inserted 25 chunks successfully in 22.67 seconds
+2025-07-30 11:38:23,648 - INFO - Inserting batch 83 with 25 chunks
+2025-07-30 11:38:36,449 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:38:36,451 - INFO - Inserted 25 chunks successfully in 12.80 seconds
+2025-07-30 11:38:36,451 - INFO - Inserting batch 84 with 25 chunks
+2025-07-30 11:38:54,282 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:38:54,284 - INFO - Inserted 25 chunks successfully in 17.83 seconds
+2025-07-30 11:38:54,284 - INFO - Inserting batch 85 with 25 chunks
+2025-07-30 11:39:13,973 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:39:13,974 - INFO - Inserted 25 chunks successfully in 19.69 seconds
+2025-07-30 11:39:13,974 - INFO - Inserting batch 86 with 25 chunks
+2025-07-30 11:39:36,737 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:39:36,738 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5001 milliseconds with 1 bytes received (Input: Yeah,\tso\tif\tAmazon's\tnot\toffering\tyou\tmoney\tyet\tand\tyou\thaven't\tfiled.\tTwo\ttax\treturns,\tso\tyou\ncan't\tget\ttraditional\tfunding\tfrom\ta\tbank.\tThen\tthe\torder\tI'd\tprobably\tgo\tin\twould\tbe.\nTrying\tto\tget\tcredit\tversus\tto\tnegotiate\tbetter\tcredit\twith\tthe\tfactories.\tSee\tif\tyou\tcan\tget\tto\t60, Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:39:46,132 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:39:46,133 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: creep\tyour\tprice\tup\tto\tslow\tit\tdown\teven\tfurther.\nSee\twhat\thappens\tagain\tmonitoring\tkeywords.\tEventually,\tyou\tmight\tget\tto\ta\tpoint.\tThen\tyou\ngo\tback\tto\tturning\tPPC\toff\tmore\tand\tmore.\nAll\tof\tthis\tcan\textend\tyou\tby\ta\tcouple\tweeks,\tusually.\tBy\tslowing\tit\tdown\tenough\twithout\treally\ngetting\taware\tof\tyour\tkeyword\tranks\ttoo\tmuch.\tThen\tthe\tlast\tthing\tto\tdo\tis\twhen\tyou\tdo\trun\nout\tof\tstock,\tthe\tlatest\tmethod\tis\tthat\tyou\twould\ttry\tto\tget\tyour\tlisting\tsuppressed.\nYou\tcan\tput\tup\tan\timage\tthat\tisn't\tallowed.\tYou\tcan,\twhich\tsometimes\tit\tjust\treverse\tthe\tsecond\nimage,\tor\tyou\tcan\ttry\tto\tdelete\tall\tyour\timages.\tI\tdon't\tknow\tthe\texact\tprocess\tto\tmake\tsure\tall\nyour\timages\tare\tdeleted\tbesides\ta\tflat\tfile.\nAnd\tsometimes\tthat\tdoesn't\teven\twork.\tWhat\tis\tthe\tright\tway\tAaron?\tOh,\tthe\tother\thand\tleft., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:40:03,988 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:40:03,990 - INFO - Inserted 25 chunks successfully in 13.85 seconds
+2025-07-30 11:40:03,990 - INFO - Inserting batch 87 with 25 chunks
+2025-07-30 11:40:24,212 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:40:24,214 - INFO - Inserted 25 chunks successfully in 20.22 seconds
+2025-07-30 11:40:24,215 - INFO - Inserting batch 88 with 25 chunks
+2025-07-30 11:40:35,501 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:40:35,502 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: So\tthe\tbulk\tupdater\tor\twhich\toption?\tThe\tvalidator\tin\tfor\tthe\tgeneric\tkeywords\tin\tdata\tdive.\tSo\nbefore\tI\twould\tuse\tthem\tas\tI\twould\tjust\tput,\tlet's\tsay,\ta\tlong\ttail\tkeyword\tand\tjust\ta\tcouple\tof\nthose,\tbut\tit\tactually\tflags\tme\tbecause\tI'm\trepeating\tsome\tof\tthe\twords.\tSo\tit's\tyeah,\tyou\tdo\nthat.\nAnd\tso\tonce\tI'm\tstarting\tto\trun\tout\tof\tthe\tkeywords,\tI'm\tjust\tusing\tjust\tvery\tgeneric\twords.\tIs\nthat\ta\tgood\tidea\tto\tgo\tthat\tway?\tYeah,\tI\tthink\tit's\tokay\tto\tdo\tthe\tgeneric\tand\ttry\tto\tget\tunlocked\nfor\tthem\tand\ttry\tto\tfigure\tout\tif\tyou\tcan\tget\tsome\tindexing\ttracking\tyour\tmake\tsure\tif\tyou're\ntracking\tyour\tyour\tkeywords\tin\tthe\trank\tradar,\tbeing\table\tto\tsee\tthe\tdifference\tthere.\tLast\tvery\nquick\tquestion.\nOnce\tyou've\tupdated\tthe\tlist\tand\thow\tquickly\tthe\tranking\tjuice\tleaderboard\tupdates\tand\tdata\ndive\tranking\tjuice\tis\tthe\tmedia,\tbut\tthe\tthe\trank\tradar\tchange\twill\tbe\tlikely\tshow\tthe\tnext\tday.\nBut\tif\tyou\tgo\tcheck\tmanually,\tit\tcould\tbe\tan\thour.\tSo\tso\tgo\tlook\tat\tyour\tyour\tranks\tand\trank, Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:40:59,012 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:40:59,013 - INFO - Inserted 25 chunks successfully in 19.50 seconds
+2025-07-30 11:40:59,013 - INFO - Inserting batch 89 with 25 chunks
+2025-07-30 11:41:16,062 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:41:16,065 - INFO - Inserted 25 chunks successfully in 17.05 seconds
+2025-07-30 11:41:16,065 - INFO - Inserting batch 90 with 25 chunks
+2025-07-30 11:41:34,403 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:41:34,406 - INFO - Inserted 25 chunks successfully in 18.34 seconds
+2025-07-30 11:41:34,407 - INFO - Inserting batch 91 with 25 chunks
+2025-07-30 11:41:50,456 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:41:50,456 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 894 bytes received (Input: concern.\tUh,\tthis\tproduct,\tthis,\tuh,\tfrequently\tbought\ttogether\tproducts\tis\tin\tlow\tdemand,\tbut,\nuh,\tI'm\ttrying\tto\tsell.\nTo\tgive\ta\tgift.\tThis\tproduct.\tHas\ta\thigh\tdemand\ton\tAmazon.\nTherefore,\tI\ttry\tto\tgive\tthis\tproduct\tas\ta\tgift.\tWell,\tthis\tone\ttoo,\tright?\tSo\tI'm\tgoing\tto\tsend\tyou\nanother\tone\tand\tthen\tI'm\tgoing\tto.\tIf\tyou\tlook,\tthey're\tvery\trelated,\tright?\tBecause\tthey're,\nthey're\tadditional\taccessories\tfor\tthe\tsame\tuser.\nSo\tthis\tone,\tthe\tone\tI\tjust\tsent\tyou\thas\ttwo\tfrequently\tbought\ttogether\tthat\tare\tvery\tdifferent,\nbut.\tAlso\tappeal\tto\tthe\tsame\tdemographic\tand\tcould\tbe\tused\tand\tare\tvery\tcheap.\tSo\tif\tyou\tcan\nsell\tthe\ttwo\tas\tlike\ttogether,\tright?\tWith\tthat.\nMaybe\tthat's\tmore\tappealing\tthan\tthe\tone\tyou\tchose.\tI\tdon't\tthink\tyours\tis\tgoing\tto\tbe\tas\nappealing,\tbut\tyou\tknow,\tuse\tIntellivy,\tright?\tSo\tyou\tasked\tif\tyou\tmake\tan\tassumption.\tGo\tback\nand\twatch\tthe\tvideo\twith\tIntellivy.\nDid\twe\thave\tPeter,\tPeter,\tuh,\tman\ton\tPeter\tPaul,\tman?\tMarlene,\tI,\tdid\tI\tmiss\this\tcall?\tLike\the\tdid, Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:42:09,315 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:42:09,316 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: same\tpackaging?\tYeah.\tSame\tpackaging.\nYeah.\tNo,\tyou\tdon't\tneed\tto.\tYou\tcan,\tyou\tcan\tinclude\twhatever\tyou\twant\tas\ta\tbundle\tand\tit's,\nit's\ta\tbundle.\nYou're\tputting\tit\tin\tthe\tsame\tpackaging.\tYeah.\tThat's\tgreat.\nThat's\tgreat.\tAnd\tthen\tI\tshow\tit\tin\tmy\timage.\tUh,\tlisting.\nThere\tis\tno\talso\tin\ta\tproblem.\tCorrect.\tBecause\tit's,\tbecause\tit's\tincluded.\nYeah.\tThis\twas\tmy\tquestions.\tThank\tyou\tvery\tmuch.\nUh,\tI\thave\tanother\tquestion\tduring\tthe\tapproval\tprocess\tof\tlisting.\tCan\tI\tget\tsome\tbite\tor\ninstruction\tfrom\tyou?\tUh,\tthen\tI\tdon't\tknow\thow\tto\tgo\tfor\tthat.\tFor\texample,\tAmazon\trequires, Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:42:30,578 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:42:30,580 - INFO - Inserted 25 chunks successfully in 17.25 seconds
+2025-07-30 11:42:30,580 - INFO - Inserting batch 92 with 25 chunks
+2025-07-30 11:42:49,632 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:42:49,633 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: I\twas\twondering\tif\tthere\twas\tany\tsort\tof\tthings\tlike\tas\tI'm\twatching\tthat\tthat\tI\tshould\tbe\twary\nof\tbecause\tI'm\tdoing\ta\trelaunch\tand\tI'm\tnot\tmaintaining\tmy\tPPC.\tAnd\tI\tassume\tmost\tof\tthat's\nfor\tmaintaining.\tSo\tif\tany,\tare\tyou\trunning\tPPC\tfor\tthe\tother\ttwo\tvariations?\tNo,\tjust\tthis\tone.\nNothing\tto\tworry\tabout\tas\tsoon\tas\tyou,\tas\tsoon\tas\tyou\tclose\tthat\tother\tlisting\tand\tthe\tother\nPPC\twill\tturn\toff.\tOkay.\tYour\tnew\tPPC\twill\tbe\tthe\tone.\nOkay.\tI\tam\tdoing\tsome\taction.\tI'm\tdoing\tsome\tcategory\ttargeting\tfor\tthe\tone\tpack.\nUm,\tand\tthat's\tbeen\tconverting\tpretty\twell\ton\tthis\tone.\tYeah.\tSo\tyou'll\thave\tsome.\nYou'll\thave\tsome\toverlap\tthere,\tbut,\tum,\tyou\tknow,\tprobably,\tprobably\twon't\tmake\tmuch\tof\ta\ndifference.\tJust\tgo\tahead\tand\tcrank\tcrank\tthe\tlaunch.\tOkay.\nUh,\tand\tthen\tmy\tlast\tquestion\twas.\tUh,\tkind\tof\ta\tdifferent\tquestion.\tI\twas\twondering,\tyou\nknow,\tI\tknow\tyou\twere\ttalking\tabout\tcommunity\tand\tyou,\tyou\tdid\tyour\tschool\tthing., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:43:11,985 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:43:11,987 - INFO - Inserted 25 chunks successfully in 18.34 seconds
+2025-07-30 11:43:11,987 - INFO - Inserting batch 93 with 25 chunks
+2025-07-30 11:43:19,850 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 11:43:19,851 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: a\tvery\tsilly\texample\tI\tjust\tgave\tthere,\tbut\tthe\tpoint\tgiven\tthe\texample\tis\tit\twon't\thave\trelevancy\nin\tterms\tof\trepeating\tthat\tkeyword,\tif\tit\tgives\tus\tranking\tjuice,\tbecause\tit's\tan\texact\tmatch\tfor\nthe\tmost\thighly\tsearched\thighly\trelevant\tin\tterms\tof\tthe\talgorithm,\tportion\tof\thow\tthat\tproduct\nis\tgoing\tto\tbe\tfound\tand\tobviously\tsales\tare\tgoing\tto\tbe\tcoming\tessentially\tfrom\tthat\tfind\nsearch\tfind\tby\tsecrets\tdoes\tit\tall\tmake\tsense.\tSo\tthe\tanswer\tis\tyes,\tbut\tmost\timportantly\tbe\nguided\tby\tthe\tranking\tjuice,\tand\tthen\tif\tthe\tranking\tjuice\tis\thigh\tenough\tand\tthe\ttitle\tstill\tmakes\nsense\ton\tthat\tto\tbe\treally\tclear.\nYeah,\twe're\twriting\tfor\tboth\tthe\talcohol,\tand\tthe\tperson,\tand\tin\tmy\tworld,\tthe\tperson\thas\ta\n5545\tsplit.\tIn\tother\twords,\tit\thas\ta\tbias\tto\tthe\tperson.\tWhy,\tbecause\tit\tdoesn't\tmatter\thow\tgreat\nit\tlooks\ton\tin\tterms\tof\tranking\tjuice\tand\tstuff\tif\tit\tjust\treads\tlike\ta\tgarbled\tkeyword\tstuffed\thash\nin\tterms\tof\tthe\thuman,\tit\twon't\twork., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 11:43:40,432 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:43:40,434 - INFO - Inserted 25 chunks successfully in 16.57 seconds
+2025-07-30 11:43:40,434 - INFO - Inserting batch 94 with 25 chunks
+2025-07-30 11:43:56,052 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:43:56,054 - INFO - Inserted 25 chunks successfully in 15.62 seconds
+2025-07-30 11:43:56,054 - INFO - Inserting batch 95 with 25 chunks
+2025-07-30 11:44:09,392 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:44:09,393 - INFO - Inserted 25 chunks successfully in 13.34 seconds
+2025-07-30 11:44:09,393 - INFO - Inserting batch 96 with 25 chunks
+2025-07-30 11:44:31,651 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:44:31,653 - INFO - Inserted 25 chunks successfully in 22.26 seconds
+2025-07-30 11:44:31,653 - INFO - Inserting batch 97 with 25 chunks
+2025-07-30 11:44:51,785 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:44:51,787 - INFO - Inserted 25 chunks successfully in 20.13 seconds
+2025-07-30 11:44:51,787 - INFO - Inserting batch 98 with 25 chunks
+2025-07-30 11:45:09,075 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:45:09,077 - INFO - Inserted 25 chunks successfully in 17.29 seconds
+2025-07-30 11:45:09,077 - INFO - Inserting batch 99 with 25 chunks
+2025-07-30 11:45:23,631 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:45:23,632 - INFO - Inserted 25 chunks successfully in 14.56 seconds
+2025-07-30 11:45:23,632 - INFO - Inserting batch 100 with 25 chunks
+2025-07-30 11:45:37,113 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:45:37,114 - INFO - Inserted 25 chunks successfully in 13.48 seconds
+2025-07-30 11:45:37,115 - INFO - Inserting batch 101 with 25 chunks
+2025-07-30 11:45:49,689 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:45:49,691 - INFO - Inserted 25 chunks successfully in 12.58 seconds
+2025-07-30 11:45:49,691 - INFO - Inserting batch 102 with 25 chunks
+2025-07-30 11:46:04,331 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:46:04,333 - INFO - Inserted 25 chunks successfully in 14.64 seconds
+2025-07-30 11:46:04,334 - INFO - Inserting batch 103 with 25 chunks
+2025-07-30 11:46:19,532 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:46:19,534 - INFO - Inserted 25 chunks successfully in 15.20 seconds
+2025-07-30 11:46:19,534 - INFO - Inserting batch 104 with 25 chunks
+2025-07-30 11:46:37,468 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:46:37,470 - INFO - Inserted 25 chunks successfully in 17.94 seconds
+2025-07-30 11:46:37,470 - INFO - Inserting batch 105 with 25 chunks
+2025-07-30 11:46:53,332 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:46:53,334 - INFO - Inserted 25 chunks successfully in 15.86 seconds
+2025-07-30 11:46:53,335 - INFO - Inserting batch 106 with 25 chunks
+2025-07-30 11:47:08,063 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:47:08,064 - INFO - Inserted 25 chunks successfully in 14.73 seconds
+2025-07-30 11:47:08,065 - INFO - Inserting batch 107 with 25 chunks
+2025-07-30 11:47:27,404 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:47:27,405 - INFO - Inserted 25 chunks successfully in 19.34 seconds
+2025-07-30 11:47:27,405 - INFO - Inserting batch 108 with 25 chunks
+2025-07-30 11:47:40,751 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:47:40,753 - INFO - Inserted 25 chunks successfully in 13.35 seconds
+2025-07-30 11:47:40,753 - INFO - Inserting batch 109 with 25 chunks
+2025-07-30 11:47:54,761 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:47:54,763 - INFO - Inserted 25 chunks successfully in 14.01 seconds
+2025-07-30 11:47:54,763 - INFO - Inserting batch 110 with 25 chunks
+2025-07-30 11:48:13,637 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:48:13,639 - INFO - Inserted 25 chunks successfully in 18.88 seconds
+2025-07-30 11:48:13,639 - INFO - Inserting batch 111 with 25 chunks
+2025-07-30 11:48:29,874 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:48:29,876 - INFO - Inserted 25 chunks successfully in 16.24 seconds
+2025-07-30 11:48:29,876 - INFO - Inserting batch 112 with 25 chunks
+2025-07-30 11:48:46,931 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:48:46,934 - INFO - Inserted 25 chunks successfully in 17.06 seconds
+2025-07-30 11:48:46,934 - INFO - Inserting batch 113 with 25 chunks
+2025-07-30 11:49:04,135 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:49:04,137 - INFO - Inserted 25 chunks successfully in 17.20 seconds
+2025-07-30 11:49:04,137 - INFO - Inserting batch 114 with 25 chunks
+2025-07-30 11:49:18,316 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:49:18,317 - INFO - Inserted 25 chunks successfully in 14.18 seconds
+2025-07-30 11:49:18,317 - INFO - Inserting batch 115 with 25 chunks
+2025-07-30 11:49:36,222 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:49:36,224 - INFO - Inserted 25 chunks successfully in 17.91 seconds
+2025-07-30 11:49:36,224 - INFO - Inserting batch 116 with 25 chunks
+2025-07-30 11:49:56,004 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:49:56,006 - INFO - Inserted 25 chunks successfully in 19.78 seconds
+2025-07-30 11:49:56,006 - INFO - Inserting batch 117 with 25 chunks
+2025-07-30 11:50:11,243 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:50:11,245 - INFO - Inserted 25 chunks successfully in 15.24 seconds
+2025-07-30 11:50:11,245 - INFO - Inserting batch 118 with 25 chunks
+2025-07-30 11:50:28,253 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:50:28,255 - INFO - Inserted 25 chunks successfully in 17.01 seconds
+2025-07-30 11:50:28,255 - INFO - Inserting batch 119 with 25 chunks
+2025-07-30 11:50:41,812 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:50:41,813 - INFO - Inserted 25 chunks successfully in 13.56 seconds
+2025-07-30 11:50:41,813 - INFO - Inserting batch 120 with 25 chunks
+2025-07-30 11:50:57,724 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:50:57,726 - INFO - Inserted 25 chunks successfully in 15.91 seconds
+2025-07-30 11:50:57,726 - INFO - Inserting batch 121 with 25 chunks
+2025-07-30 11:51:12,762 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:51:12,764 - INFO - Inserted 25 chunks successfully in 15.04 seconds
+2025-07-30 11:51:12,764 - INFO - Inserting batch 122 with 25 chunks
+2025-07-30 11:51:26,912 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:51:26,914 - INFO - Inserted 25 chunks successfully in 14.15 seconds
+2025-07-30 11:51:26,914 - INFO - Inserting batch 123 with 25 chunks
+2025-07-30 11:51:39,509 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:51:39,511 - INFO - Inserted 25 chunks successfully in 12.60 seconds
+2025-07-30 11:51:39,511 - INFO - Inserting batch 124 with 25 chunks
+2025-07-30 11:51:54,997 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:51:54,999 - INFO - Inserted 25 chunks successfully in 15.49 seconds
+2025-07-30 11:51:55,000 - INFO - Inserting batch 125 with 25 chunks
+2025-07-30 11:52:08,536 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:52:08,538 - INFO - Inserted 25 chunks successfully in 13.54 seconds
+2025-07-30 11:52:08,538 - INFO - Inserting batch 126 with 25 chunks
+2025-07-30 11:52:24,008 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:52:24,010 - INFO - Inserted 25 chunks successfully in 15.47 seconds
+2025-07-30 11:52:24,010 - INFO - Inserting batch 127 with 25 chunks
+2025-07-30 11:52:38,131 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:52:38,133 - INFO - Inserted 25 chunks successfully in 14.12 seconds
+2025-07-30 11:52:38,133 - INFO - Inserting batch 128 with 25 chunks
+2025-07-30 11:52:53,250 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:52:53,252 - INFO - Inserted 25 chunks successfully in 15.12 seconds
+2025-07-30 11:52:53,253 - INFO - Inserting batch 129 with 25 chunks
+2025-07-30 11:53:07,108 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:53:07,109 - INFO - Inserted 25 chunks successfully in 13.86 seconds
+2025-07-30 11:53:07,109 - INFO - Inserting batch 130 with 25 chunks
+2025-07-30 11:53:20,099 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:53:20,101 - INFO - Inserted 25 chunks successfully in 12.99 seconds
+2025-07-30 11:53:20,101 - INFO - Inserting batch 131 with 25 chunks
+2025-07-30 11:53:33,288 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:53:33,289 - INFO - Inserted 25 chunks successfully in 13.19 seconds
+2025-07-30 11:53:33,290 - INFO - Inserting batch 132 with 25 chunks
+2025-07-30 11:53:47,228 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:53:47,230 - INFO - Inserted 25 chunks successfully in 13.94 seconds
+2025-07-30 11:53:47,231 - INFO - Inserting batch 133 with 25 chunks
+2025-07-30 11:54:03,122 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:54:03,124 - INFO - Inserted 25 chunks successfully in 15.89 seconds
+2025-07-30 11:54:03,124 - INFO - Inserting batch 134 with 25 chunks
+2025-07-30 11:54:17,564 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:54:17,566 - INFO - Inserted 25 chunks successfully in 14.44 seconds
+2025-07-30 11:54:17,567 - INFO - Inserting batch 135 with 25 chunks
+2025-07-30 11:54:32,586 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:54:32,587 - INFO - Inserted 25 chunks successfully in 15.02 seconds
+2025-07-30 11:54:32,588 - INFO - Inserting batch 136 with 25 chunks
+2025-07-30 11:54:46,451 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:54:46,453 - INFO - Inserted 25 chunks successfully in 13.87 seconds
+2025-07-30 11:54:46,453 - INFO - Inserting batch 137 with 25 chunks
+2025-07-30 11:55:00,296 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:55:00,297 - INFO - Inserted 25 chunks successfully in 13.84 seconds
+2025-07-30 11:55:00,298 - INFO - Inserting batch 138 with 25 chunks
+2025-07-30 11:55:14,450 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:55:14,452 - INFO - Inserted 25 chunks successfully in 14.15 seconds
+2025-07-30 11:55:14,452 - INFO - Inserting batch 139 with 25 chunks
+2025-07-30 11:55:26,809 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:55:26,810 - INFO - Inserted 25 chunks successfully in 12.36 seconds
+2025-07-30 11:55:26,810 - INFO - Inserting batch 140 with 25 chunks
+2025-07-30 11:55:40,811 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:55:40,813 - INFO - Inserted 25 chunks successfully in 14.00 seconds
+2025-07-30 11:55:40,813 - INFO - Inserting batch 141 with 25 chunks
+2025-07-30 11:55:52,776 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:55:52,778 - INFO - Inserted 25 chunks successfully in 11.97 seconds
+2025-07-30 11:55:52,779 - INFO - Inserting batch 142 with 25 chunks
+2025-07-30 11:56:08,280 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:56:08,282 - INFO - Inserted 25 chunks successfully in 15.50 seconds
+2025-07-30 11:56:08,283 - INFO - Inserting batch 143 with 25 chunks
+2025-07-30 11:56:22,334 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:56:22,336 - INFO - Inserted 25 chunks successfully in 14.05 seconds
+2025-07-30 11:56:22,336 - INFO - Inserting batch 144 with 25 chunks
+2025-07-30 11:56:38,142 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:56:38,143 - INFO - Inserted 25 chunks successfully in 15.81 seconds
+2025-07-30 11:56:38,143 - INFO - Inserting batch 145 with 25 chunks
+2025-07-30 11:56:54,080 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:56:54,081 - INFO - Inserted 25 chunks successfully in 15.94 seconds
+2025-07-30 11:56:54,082 - INFO - Inserting batch 146 with 25 chunks
+2025-07-30 11:57:09,954 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:57:09,956 - INFO - Inserted 25 chunks successfully in 15.87 seconds
+2025-07-30 11:57:09,957 - INFO - Inserting batch 147 with 25 chunks
+2025-07-30 11:57:22,405 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:57:22,407 - INFO - Inserted 25 chunks successfully in 12.45 seconds
+2025-07-30 11:57:22,407 - INFO - Inserting batch 148 with 25 chunks
+2025-07-30 11:57:37,166 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:57:37,168 - INFO - Inserted 25 chunks successfully in 14.76 seconds
+2025-07-30 11:57:37,168 - INFO - Inserting batch 149 with 25 chunks
+2025-07-30 11:57:51,744 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:57:51,746 - INFO - Inserted 25 chunks successfully in 14.58 seconds
+2025-07-30 11:57:51,746 - INFO - Inserting batch 150 with 25 chunks
+2025-07-30 11:58:07,901 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:58:07,903 - INFO - Inserted 25 chunks successfully in 16.16 seconds
+2025-07-30 11:58:07,903 - INFO - Inserting batch 151 with 25 chunks
+2025-07-30 11:58:27,954 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:58:27,955 - INFO - Inserted 25 chunks successfully in 20.05 seconds
+2025-07-30 11:58:27,956 - INFO - Inserting batch 152 with 25 chunks
+2025-07-30 11:58:42,670 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:58:42,672 - INFO - Inserted 25 chunks successfully in 14.72 seconds
+2025-07-30 11:58:42,672 - INFO - Inserting batch 153 with 25 chunks
+2025-07-30 11:58:55,556 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:58:55,558 - INFO - Inserted 25 chunks successfully in 12.89 seconds
+2025-07-30 11:58:55,558 - INFO - Inserting batch 154 with 25 chunks
+2025-07-30 11:59:09,055 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:59:09,057 - INFO - Inserted 25 chunks successfully in 13.50 seconds
+2025-07-30 11:59:09,057 - INFO - Inserting batch 155 with 25 chunks
+2025-07-30 11:59:22,622 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:59:22,623 - INFO - Inserted 25 chunks successfully in 13.57 seconds
+2025-07-30 11:59:22,623 - INFO - Inserting batch 156 with 25 chunks
+2025-07-30 11:59:35,054 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:59:35,056 - INFO - Inserted 25 chunks successfully in 12.43 seconds
+2025-07-30 11:59:35,057 - INFO - Inserting batch 157 with 25 chunks
+2025-07-30 11:59:49,359 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 11:59:49,361 - INFO - Inserted 25 chunks successfully in 14.30 seconds
+2025-07-30 11:59:49,361 - INFO - Inserting batch 158 with 25 chunks
+2025-07-30 12:00:02,420 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:00:02,422 - INFO - Inserted 25 chunks successfully in 13.06 seconds
+2025-07-30 12:00:02,423 - INFO - Inserting batch 159 with 25 chunks
+2025-07-30 12:00:17,847 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:00:17,848 - INFO - Inserted 25 chunks successfully in 15.43 seconds
+2025-07-30 12:00:17,848 - INFO - Inserting batch 160 with 25 chunks
+2025-07-30 12:00:31,926 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:00:31,928 - INFO - Inserted 25 chunks successfully in 14.08 seconds
+2025-07-30 12:00:31,929 - INFO - Inserting batch 161 with 25 chunks
+2025-07-30 12:00:46,370 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:00:46,372 - INFO - Inserted 25 chunks successfully in 14.44 seconds
+2025-07-30 12:00:46,372 - INFO - Inserting batch 162 with 25 chunks
+2025-07-30 12:01:00,500 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:01:00,502 - INFO - Inserted 25 chunks successfully in 14.13 seconds
+2025-07-30 12:01:00,502 - INFO - Inserting batch 163 with 25 chunks
+2025-07-30 12:01:22,959 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:01:22,961 - INFO - Inserted 25 chunks successfully in 22.46 seconds
+2025-07-30 12:01:22,961 - INFO - Inserting batch 164 with 25 chunks
+2025-07-30 12:01:40,191 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:01:40,193 - INFO - Inserted 25 chunks successfully in 17.23 seconds
+2025-07-30 12:01:40,194 - INFO - Inserting batch 165 with 25 chunks
+2025-07-30 12:01:53,521 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:01:53,523 - INFO - Inserted 25 chunks successfully in 13.33 seconds
+2025-07-30 12:01:53,523 - INFO - Inserting batch 166 with 25 chunks
+2025-07-30 12:02:07,103 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:02:07,105 - INFO - Inserted 25 chunks successfully in 13.58 seconds
+2025-07-30 12:02:07,105 - INFO - Inserting batch 167 with 25 chunks
+2025-07-30 12:02:22,050 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:02:22,051 - INFO - Inserted 25 chunks successfully in 14.95 seconds
+2025-07-30 12:02:22,051 - INFO - Inserting batch 168 with 25 chunks
+2025-07-30 12:02:37,518 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:02:37,519 - INFO - Inserted 25 chunks successfully in 15.47 seconds
+2025-07-30 12:02:37,520 - INFO - Inserting batch 169 with 25 chunks
+2025-07-30 12:02:50,713 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:02:50,715 - INFO - Inserted 25 chunks successfully in 13.20 seconds
+2025-07-30 12:02:50,715 - INFO - Inserting batch 170 with 25 chunks
+2025-07-30 12:03:04,016 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:03:04,017 - INFO - Inserted 25 chunks successfully in 13.30 seconds
+2025-07-30 12:03:04,018 - INFO - Inserting batch 171 with 25 chunks
+2025-07-30 12:03:22,075 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:03:22,076 - INFO - Inserted 25 chunks successfully in 18.06 seconds
+2025-07-30 12:03:22,077 - INFO - Inserting batch 172 with 25 chunks
+2025-07-30 12:03:35,837 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:03:35,839 - INFO - Inserted 25 chunks successfully in 13.76 seconds
+2025-07-30 12:03:35,840 - INFO - Inserting batch 173 with 25 chunks
+2025-07-30 12:03:42,459 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 12:03:42,459 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: But\tthe\tnuances\tof\tthe\tproduct\tand\tthe\tculture\tare\tvery\tdifficult\tfor\tthem\tto\tget\tsometimes.\tSo\nthey\tdon't\tunderstand\twhat\tthe\tproduct\tnecessarily\tdoes,\tlike\twhat\troot\tword\tto\tfocus\ton,\nright?\tBecause\tit's\tdescriptive\tas\tto\twhat\tthe\tproduct\tdoes.\tSo\tI've\tjust\thad\tchallenges.\nThose\tare\tmade\tthe\tmain\tchallenges\tare\tlike\tEnglish\thas\ta\tsecond\tlanguage\tcultural\tfit\tfor\nunderstanding\tthe\tproduct\tand\tconnecting\tto\tthe\tproduct.\tOh,\tyeah.\tI\tget\tyour\tpoint.\nI\talso\tbecause\tI\tworked\tin\te-commerce\tcompanies\tbefore\tI\tstarted\tmy\tbusiness.\tThat\twas\ta\nvery\tlike\tmajor\tpain\tpoint\tin\thiring\tfrom\tChina.\tYeah.\nAbsolutely.\tWell,\tman,\twell,\tgood\tluck.\tWatch\tthe\tspecial\tcall\tand\tthen\tand\tthen\tcheck\tit\tout.\nI\tthink\tyou'll\tdo\twell.\tYeah.\tYeah.\nI\twatched\tthe\tspecial\tcall\tof\tthis\tthree\tseries\tof\tbrand\tvaluation\twas\tcut\tdates.\tIt's\tvery,\tvery.\nScott\tis\tone\tof\tthe\tsmartest\tpeople\ton\tthe\tplanet.\nAbsolutely\tincredible.\tYeah.\tYeah., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 12:04:05,450 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:04:05,451 - INFO - Inserted 25 chunks successfully in 18.99 seconds
+2025-07-30 12:04:05,451 - INFO - Inserting batch 174 with 25 chunks
+2025-07-30 12:04:19,557 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:04:19,559 - INFO - Inserted 25 chunks successfully in 14.11 seconds
+2025-07-30 12:04:19,559 - INFO - Inserting batch 175 with 25 chunks
+2025-07-30 12:04:34,570 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:04:34,572 - INFO - Inserted 25 chunks successfully in 15.01 seconds
+2025-07-30 12:04:34,572 - INFO - Inserting batch 176 with 25 chunks
+2025-07-30 12:04:50,385 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:04:50,387 - INFO - Inserted 25 chunks successfully in 15.81 seconds
+2025-07-30 12:04:50,387 - INFO - Inserting batch 177 with 25 chunks
+2025-07-30 12:05:06,989 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:05:06,991 - INFO - Inserted 25 chunks successfully in 16.60 seconds
+2025-07-30 12:05:06,991 - INFO - Inserting batch 178 with 25 chunks
+2025-07-30 12:05:20,664 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:05:20,665 - INFO - Inserted 25 chunks successfully in 13.67 seconds
+2025-07-30 12:05:20,665 - INFO - Inserting batch 179 with 25 chunks
+2025-07-30 12:05:36,913 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:05:36,914 - INFO - Inserted 25 chunks successfully in 16.25 seconds
+2025-07-30 12:05:36,915 - INFO - Inserting batch 180 with 25 chunks
+2025-07-30 12:05:52,782 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:05:52,784 - INFO - Inserted 25 chunks successfully in 15.87 seconds
+2025-07-30 12:05:52,784 - INFO - Inserting batch 181 with 25 chunks
+2025-07-30 12:06:06,629 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:06:06,631 - INFO - Inserted 25 chunks successfully in 13.85 seconds
+2025-07-30 12:06:06,631 - INFO - Inserting batch 182 with 25 chunks
+2025-07-30 12:06:19,416 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:06:19,417 - INFO - Inserted 25 chunks successfully in 12.79 seconds
+2025-07-30 12:06:19,418 - INFO - Inserting batch 183 with 25 chunks
+2025-07-30 12:06:32,453 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:06:32,455 - INFO - Inserted 25 chunks successfully in 13.04 seconds
+2025-07-30 12:06:32,455 - INFO - Inserting batch 184 with 25 chunks
+2025-07-30 12:06:46,217 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:06:46,219 - INFO - Inserted 25 chunks successfully in 13.76 seconds
+2025-07-30 12:06:46,219 - INFO - Inserting batch 185 with 25 chunks
+2025-07-30 12:06:59,541 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:06:59,543 - INFO - Inserted 25 chunks successfully in 13.32 seconds
+2025-07-30 12:06:59,543 - INFO - Inserting batch 186 with 25 chunks
+2025-07-30 12:07:14,961 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:07:14,963 - INFO - Inserted 25 chunks successfully in 15.42 seconds
+2025-07-30 12:07:14,963 - INFO - Inserting batch 187 with 25 chunks
+2025-07-30 12:07:28,753 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:07:28,755 - INFO - Inserted 25 chunks successfully in 13.79 seconds
+2025-07-30 12:07:28,755 - INFO - Inserting batch 188 with 25 chunks
+2025-07-30 12:07:43,084 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:07:43,085 - INFO - Inserted 25 chunks successfully in 14.33 seconds
+2025-07-30 12:07:43,085 - INFO - Inserting batch 189 with 25 chunks
+2025-07-30 12:07:57,541 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:07:57,543 - INFO - Inserted 25 chunks successfully in 14.46 seconds
+2025-07-30 12:07:57,543 - INFO - Inserting batch 190 with 25 chunks
+2025-07-30 12:08:15,386 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:08:15,387 - INFO - Inserted 25 chunks successfully in 17.84 seconds
+2025-07-30 12:08:15,387 - INFO - Inserting batch 191 with 25 chunks
+2025-07-30 12:08:29,218 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:08:29,220 - INFO - Inserted 25 chunks successfully in 13.83 seconds
+2025-07-30 12:08:29,220 - INFO - Inserting batch 192 with 25 chunks
+2025-07-30 12:08:45,002 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:08:45,004 - INFO - Inserted 25 chunks successfully in 15.78 seconds
+2025-07-30 12:08:45,004 - INFO - Inserting batch 193 with 25 chunks
+2025-07-30 12:09:00,452 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:09:00,454 - INFO - Inserted 25 chunks successfully in 15.45 seconds
+2025-07-30 12:09:00,455 - INFO - Inserting batch 194 with 25 chunks
+2025-07-30 12:09:14,423 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:09:14,425 - INFO - Inserted 25 chunks successfully in 13.97 seconds
+2025-07-30 12:09:14,425 - INFO - Inserting batch 195 with 25 chunks
+2025-07-30 12:09:28,704 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:09:28,706 - INFO - Inserted 25 chunks successfully in 14.28 seconds
+2025-07-30 12:09:28,706 - INFO - Inserting batch 196 with 25 chunks
+2025-07-30 12:09:44,314 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:09:44,316 - INFO - Inserted 25 chunks successfully in 15.61 seconds
+2025-07-30 12:09:44,317 - INFO - Inserting batch 197 with 25 chunks
+2025-07-30 12:10:01,253 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:10:01,255 - INFO - Inserted 25 chunks successfully in 16.94 seconds
+2025-07-30 12:10:01,256 - INFO - Inserting batch 198 with 25 chunks
+2025-07-30 12:10:15,600 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:10:15,602 - INFO - Inserted 25 chunks successfully in 14.35 seconds
+2025-07-30 12:10:15,602 - INFO - Inserting batch 199 with 25 chunks
+2025-07-30 12:10:28,738 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:10:28,740 - INFO - Inserted 25 chunks successfully in 13.14 seconds
+2025-07-30 12:10:28,740 - INFO - Inserting batch 200 with 25 chunks
+2025-07-30 12:10:43,044 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:10:43,046 - INFO - Inserted 25 chunks successfully in 14.31 seconds
+2025-07-30 12:10:43,046 - INFO - Inserting batch 201 with 25 chunks
+2025-07-30 12:10:57,703 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:10:57,705 - INFO - Inserted 25 chunks successfully in 14.66 seconds
+2025-07-30 12:10:57,705 - INFO - Inserting batch 202 with 25 chunks
+2025-07-30 12:11:15,305 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:11:15,306 - INFO - Inserted 25 chunks successfully in 17.60 seconds
+2025-07-30 12:11:15,307 - INFO - Inserting batch 203 with 25 chunks
+2025-07-30 12:11:30,962 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:11:30,963 - INFO - Inserted 25 chunks successfully in 15.66 seconds
+2025-07-30 12:11:30,963 - INFO - Inserting batch 204 with 25 chunks
+2025-07-30 12:11:48,540 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:11:48,542 - INFO - Inserted 25 chunks successfully in 17.58 seconds
+2025-07-30 12:11:48,542 - INFO - Inserting batch 205 with 25 chunks
+2025-07-30 12:12:02,591 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:12:02,592 - INFO - Inserted 25 chunks successfully in 14.05 seconds
+2025-07-30 12:12:02,592 - INFO - Inserting batch 206 with 25 chunks
+2025-07-30 12:12:25,021 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:12:25,023 - INFO - Inserted 25 chunks successfully in 22.43 seconds
+2025-07-30 12:12:25,023 - INFO - Inserting batch 207 with 25 chunks
+2025-07-30 12:12:38,263 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:12:38,265 - INFO - Inserted 25 chunks successfully in 13.24 seconds
+2025-07-30 12:12:38,265 - INFO - Inserting batch 208 with 25 chunks
+2025-07-30 12:12:53,849 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:12:53,851 - INFO - Inserted 25 chunks successfully in 15.59 seconds
+2025-07-30 12:12:53,851 - INFO - Inserting batch 209 with 25 chunks
+2025-07-30 12:13:09,919 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:13:09,921 - INFO - Inserted 25 chunks successfully in 16.07 seconds
+2025-07-30 12:13:09,921 - INFO - Inserting batch 210 with 25 chunks
+2025-07-30 12:13:23,463 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:13:23,465 - INFO - Inserted 25 chunks successfully in 13.54 seconds
+2025-07-30 12:13:23,465 - INFO - Inserting batch 211 with 25 chunks
+2025-07-30 12:13:38,886 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:13:38,887 - INFO - Inserted 25 chunks successfully in 15.42 seconds
+2025-07-30 12:13:38,888 - INFO - Inserting batch 212 with 25 chunks
+2025-07-30 12:13:53,758 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:13:53,759 - INFO - Inserted 25 chunks successfully in 14.87 seconds
+2025-07-30 12:13:53,760 - INFO - Inserting batch 213 with 25 chunks
+2025-07-30 12:14:08,981 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:14:08,982 - INFO - Inserted 25 chunks successfully in 15.22 seconds
+2025-07-30 12:14:08,982 - INFO - Inserting batch 214 with 25 chunks
+2025-07-30 12:14:22,190 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:14:22,191 - INFO - Inserted 25 chunks successfully in 13.21 seconds
+2025-07-30 12:14:22,192 - INFO - Inserting batch 215 with 25 chunks
+2025-07-30 12:14:38,868 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:14:38,870 - INFO - Inserted 25 chunks successfully in 16.68 seconds
+2025-07-30 12:14:38,870 - INFO - Inserting batch 216 with 25 chunks
+2025-07-30 12:14:52,751 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:14:52,753 - INFO - Inserted 25 chunks successfully in 13.88 seconds
+2025-07-30 12:14:52,754 - INFO - Inserting batch 217 with 25 chunks
+2025-07-30 12:15:09,168 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:15:09,170 - INFO - Inserted 25 chunks successfully in 16.42 seconds
+2025-07-30 12:15:09,170 - INFO - Inserting batch 218 with 25 chunks
+2025-07-30 12:15:23,090 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:15:23,091 - INFO - Inserted 25 chunks successfully in 13.92 seconds
+2025-07-30 12:15:23,091 - INFO - Inserting batch 219 with 25 chunks
+2025-07-30 12:15:35,944 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:15:35,946 - INFO - Inserted 25 chunks successfully in 12.85 seconds
+2025-07-30 12:15:35,946 - INFO - Inserting batch 220 with 25 chunks
+2025-07-30 12:15:49,895 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:15:49,896 - INFO - Inserted 25 chunks successfully in 13.95 seconds
+2025-07-30 12:15:49,897 - INFO - Inserting batch 221 with 25 chunks
+2025-07-30 12:16:03,268 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:16:03,270 - INFO - Inserted 25 chunks successfully in 13.37 seconds
+2025-07-30 12:16:03,271 - INFO - Inserting batch 222 with 25 chunks
+2025-07-30 12:16:17,334 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:16:17,335 - INFO - Inserted 25 chunks successfully in 14.06 seconds
+2025-07-30 12:16:17,336 - INFO - Inserting batch 223 with 25 chunks
+2025-07-30 12:16:30,517 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:16:30,518 - INFO - Inserted 25 chunks successfully in 13.18 seconds
+2025-07-30 12:16:30,519 - INFO - Inserting batch 224 with 25 chunks
+2025-07-30 12:16:43,627 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:16:43,628 - INFO - Inserted 25 chunks successfully in 13.11 seconds
+2025-07-30 12:16:43,629 - INFO - Inserting batch 225 with 25 chunks
+2025-07-30 12:16:54,799 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:16:54,800 - INFO - Inserted 25 chunks successfully in 11.17 seconds
+2025-07-30 12:16:54,800 - INFO - Inserting batch 226 with 25 chunks
+2025-07-30 12:17:14,356 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:17:14,358 - INFO - Inserted 25 chunks successfully in 19.56 seconds
+2025-07-30 12:17:14,358 - INFO - Inserting batch 227 with 25 chunks
+2025-07-30 12:17:30,370 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:17:30,372 - INFO - Inserted 25 chunks successfully in 16.01 seconds
+2025-07-30 12:17:30,372 - INFO - Inserting batch 228 with 25 chunks
+2025-07-30 12:17:45,242 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:17:45,243 - INFO - Inserted 25 chunks successfully in 14.87 seconds
+2025-07-30 12:17:45,244 - INFO - Inserting batch 229 with 25 chunks
+2025-07-30 12:17:58,482 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:17:58,484 - INFO - Inserted 25 chunks successfully in 13.24 seconds
+2025-07-30 12:17:58,484 - INFO - Inserting batch 230 with 25 chunks
+2025-07-30 12:18:14,995 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:18:14,997 - INFO - Inserted 25 chunks successfully in 16.51 seconds
+2025-07-30 12:18:14,997 - INFO - Inserting batch 231 with 25 chunks
+2025-07-30 12:18:30,338 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:18:30,340 - INFO - Inserted 25 chunks successfully in 15.34 seconds
+2025-07-30 12:18:30,340 - INFO - Inserting batch 232 with 25 chunks
+2025-07-30 12:18:45,281 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:18:45,282 - INFO - Inserted 25 chunks successfully in 14.94 seconds
+2025-07-30 12:18:45,283 - INFO - Inserting batch 233 with 25 chunks
+2025-07-30 12:19:01,321 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:19:01,322 - INFO - Inserted 25 chunks successfully in 16.04 seconds
+2025-07-30 12:19:01,322 - INFO - Inserting batch 234 with 25 chunks
+2025-07-30 12:19:15,117 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:19:15,119 - INFO - Inserted 25 chunks successfully in 13.80 seconds
+2025-07-30 12:19:15,119 - INFO - Inserting batch 235 with 25 chunks
+2025-07-30 12:19:29,371 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:19:29,373 - INFO - Inserted 25 chunks successfully in 14.25 seconds
+2025-07-30 12:19:29,373 - INFO - Inserting batch 236 with 25 chunks
+2025-07-30 12:19:46,464 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:19:46,466 - INFO - Inserted 25 chunks successfully in 17.09 seconds
+2025-07-30 12:19:46,466 - INFO - Inserting batch 237 with 25 chunks
+2025-07-30 12:20:05,777 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:20:05,778 - INFO - Inserted 25 chunks successfully in 19.31 seconds
+2025-07-30 12:20:05,778 - INFO - Inserting batch 238 with 25 chunks
+2025-07-30 12:20:24,525 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:20:24,527 - INFO - Inserted 25 chunks successfully in 18.75 seconds
+2025-07-30 12:20:24,527 - INFO - Inserting batch 239 with 25 chunks
+2025-07-30 12:20:38,209 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:20:38,211 - INFO - Inserted 25 chunks successfully in 13.68 seconds
+2025-07-30 12:20:38,211 - INFO - Inserting batch 240 with 25 chunks
+2025-07-30 12:20:52,631 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:20:52,633 - INFO - Inserted 25 chunks successfully in 14.42 seconds
+2025-07-30 12:20:52,634 - INFO - Inserting batch 241 with 25 chunks
+2025-07-30 12:21:07,408 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:21:07,410 - INFO - Inserted 25 chunks successfully in 14.78 seconds
+2025-07-30 12:21:07,410 - INFO - Inserting batch 242 with 25 chunks
+2025-07-30 12:21:21,282 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:21:21,284 - INFO - Inserted 25 chunks successfully in 13.87 seconds
+2025-07-30 12:21:21,285 - INFO - Inserting batch 243 with 25 chunks
+2025-07-30 12:21:36,720 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:21:36,722 - INFO - Inserted 25 chunks successfully in 15.44 seconds
+2025-07-30 12:21:36,722 - INFO - Inserting batch 244 with 25 chunks
+2025-07-30 12:21:52,231 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:21:52,232 - INFO - Inserted 25 chunks successfully in 15.51 seconds
+2025-07-30 12:21:52,233 - INFO - Inserting batch 245 with 25 chunks
+2025-07-30 12:22:04,772 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:22:04,773 - INFO - Inserted 25 chunks successfully in 12.54 seconds
+2025-07-30 12:22:04,774 - INFO - Inserting batch 246 with 25 chunks
+2025-07-30 12:22:19,817 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:22:19,819 - INFO - Inserted 25 chunks successfully in 15.04 seconds
+2025-07-30 12:22:19,819 - INFO - Inserting batch 247 with 25 chunks
+2025-07-30 12:22:33,834 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:22:33,835 - INFO - Inserted 25 chunks successfully in 14.02 seconds
+2025-07-30 12:22:33,836 - INFO - Inserting batch 248 with 25 chunks
+2025-07-30 12:22:48,419 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:22:48,420 - INFO - Inserted 25 chunks successfully in 14.58 seconds
+2025-07-30 12:22:48,420 - INFO - Inserting batch 249 with 25 chunks
+2025-07-30 12:23:02,615 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:23:02,616 - INFO - Inserted 25 chunks successfully in 14.20 seconds
+2025-07-30 12:23:02,616 - INFO - Inserting batch 250 with 25 chunks
+2025-07-30 12:23:18,089 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:23:18,091 - INFO - Inserted 25 chunks successfully in 15.47 seconds
+2025-07-30 12:23:18,091 - INFO - Inserting batch 251 with 25 chunks
+2025-07-30 12:23:39,129 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:23:39,131 - INFO - Inserted 25 chunks successfully in 21.04 seconds
+2025-07-30 12:23:39,132 - INFO - Inserting batch 252 with 25 chunks
+2025-07-30 12:23:53,036 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:23:53,038 - INFO - Inserted 25 chunks successfully in 13.91 seconds
+2025-07-30 12:23:53,038 - INFO - Inserting batch 253 with 25 chunks
+2025-07-30 12:24:05,322 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:24:05,324 - INFO - Inserted 25 chunks successfully in 12.29 seconds
+2025-07-30 12:24:05,324 - INFO - Inserting batch 254 with 25 chunks
+2025-07-30 12:24:17,885 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:24:17,887 - INFO - Inserted 25 chunks successfully in 12.56 seconds
+2025-07-30 12:24:17,887 - INFO - Inserting batch 255 with 25 chunks
+2025-07-30 12:24:33,137 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:24:33,139 - INFO - Inserted 25 chunks successfully in 15.25 seconds
+2025-07-30 12:24:33,139 - INFO - Inserting batch 256 with 25 chunks
+2025-07-30 12:24:47,752 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:24:47,754 - INFO - Inserted 25 chunks successfully in 14.61 seconds
+2025-07-30 12:24:47,754 - INFO - Inserting batch 257 with 25 chunks
+2025-07-30 12:25:03,463 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:25:03,464 - INFO - Inserted 25 chunks successfully in 15.71 seconds
+2025-07-30 12:25:03,465 - INFO - Inserting batch 258 with 25 chunks
+2025-07-30 12:25:18,317 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:25:18,319 - INFO - Inserted 25 chunks successfully in 14.85 seconds
+2025-07-30 12:25:18,319 - INFO - Inserting batch 259 with 25 chunks
+2025-07-30 12:25:34,809 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:25:34,811 - INFO - Inserted 25 chunks successfully in 16.49 seconds
+2025-07-30 12:25:34,811 - INFO - Inserting batch 260 with 25 chunks
+2025-07-30 12:25:53,865 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:25:53,867 - INFO - Inserted 25 chunks successfully in 19.06 seconds
+2025-07-30 12:25:53,867 - INFO - Inserting batch 261 with 25 chunks
+2025-07-30 12:26:08,391 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:26:08,393 - INFO - Inserted 25 chunks successfully in 14.53 seconds
+2025-07-30 12:26:08,393 - INFO - Inserting batch 262 with 25 chunks
+2025-07-30 12:26:22,868 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:26:22,870 - INFO - Inserted 25 chunks successfully in 14.48 seconds
+2025-07-30 12:26:22,870 - INFO - Inserting batch 263 with 25 chunks
+2025-07-30 12:26:37,899 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:26:37,900 - INFO - Inserted 25 chunks successfully in 15.03 seconds
+2025-07-30 12:26:37,901 - INFO - Inserting batch 264 with 25 chunks
+2025-07-30 12:26:52,033 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:26:52,034 - INFO - Inserted 25 chunks successfully in 14.13 seconds
+2025-07-30 12:26:52,034 - INFO - Inserting batch 265 with 25 chunks
+2025-07-30 12:27:07,310 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:27:07,311 - INFO - Inserted 25 chunks successfully in 15.28 seconds
+2025-07-30 12:27:07,311 - INFO - Inserting batch 266 with 25 chunks
+2025-07-30 12:27:22,136 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:27:22,138 - INFO - Inserted 25 chunks successfully in 14.83 seconds
+2025-07-30 12:27:22,138 - INFO - Inserting batch 267 with 25 chunks
+2025-07-30 12:27:36,714 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:27:36,716 - INFO - Inserted 25 chunks successfully in 14.58 seconds
+2025-07-30 12:27:36,716 - INFO - Inserting batch 268 with 25 chunks
+2025-07-30 12:27:54,430 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:27:54,432 - INFO - Inserted 25 chunks successfully in 17.72 seconds
+2025-07-30 12:27:54,432 - INFO - Inserting batch 269 with 25 chunks
+2025-07-30 12:28:11,826 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:28:11,828 - INFO - Inserted 25 chunks successfully in 17.40 seconds
+2025-07-30 12:28:11,828 - INFO - Inserting batch 270 with 25 chunks
+2025-07-30 12:28:31,429 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:28:31,432 - INFO - Inserted 25 chunks successfully in 19.60 seconds
+2025-07-30 12:28:31,433 - INFO - Inserting batch 271 with 25 chunks
+2025-07-30 12:28:39,701 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 12:28:39,702 - ERROR - Batch insert error: {'message': "Embedding API error: invalid input syntax for type json (Input: Yeah,\texactly.\tIt's\tgoing\tto\tbe\treinforcing\tthat.\tAnd\tif\tthey\tsee\tit\tmore\tthan\tonce\tand\tit\tchecks\nthe\tbox\tmore\tthan\tonce,\tthen\tthey're\tgoing\tto\tgo\tahead\tand\tbuy\tit.\nYou\treally\tneed\tto\tknow\twhat\tthat\tmain\tavatar's\tlike\tsticking\tpoint\tis.\tIs\tit\tthe,\tare\tthey\tlooking\nfor\tspecific\tmaterial\tor\tthey're\tlooking\tfor\ta\tspecific\tquantity?\tAre\tthey\tlooking\tfor\ta\tspecific\nsize?\tA\tuse\tcase,\tyou\treally\tneed\tto\tknow\twhat\tit\tis\tfor\tthat\tproduct\tthat\tthat\tbuyer\tneeds\tto\tsee\nor\tunderstand\tbefore\tthey\tpull\tthe\ttrigger.\tOkay.\nAnd\tthen\twhat\tabout\tanalyzing\tother\tA\tplus\tcontent\tfrom\tthat\tniche?\tWhere,\tyou\tknow,\tuse, Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 12:28:57,325 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:28:57,326 - INFO - Inserted 25 chunks successfully in 13.61 seconds
+2025-07-30 12:28:57,326 - INFO - Inserting batch 272 with 25 chunks
+2025-07-30 12:29:05,025 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 12:29:05,026 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: I\tdon't,\tI\tdon't\tknow\tanything\tabout\tcollagen,\tbut\tcaffeinated\tnon\tcaffe,\twhatever.\tBut\tif\tyou\ndownload\tthe\tcategory\tlistings\treport\tand\tyou\tsee\twhat\tthe\tvariation\ttype\tis,\twhat\tyou\tcan\tdo\tis\nlike\tscrew\taround\twith\tplay\tand\tI\tnever\tfind\ta\tway\tto\tconsistently\tmake\tit\twork\tin\tall\tcategories.\nIt's\tdifferent\tin\tall\tcategories., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 12:29:23,310 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:29:23,312 - INFO - Inserted 25 chunks successfully in 14.28 seconds
+2025-07-30 12:29:23,313 - INFO - Inserting batch 273 with 25 chunks
+2025-07-30 12:29:38,647 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:29:38,649 - INFO - Inserted 25 chunks successfully in 15.34 seconds
+2025-07-30 12:29:38,649 - INFO - Inserting batch 274 with 25 chunks
+2025-07-30 12:29:58,371 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:29:58,373 - INFO - Inserted 25 chunks successfully in 19.72 seconds
+2025-07-30 12:29:58,373 - INFO - Inserting batch 275 with 25 chunks
+2025-07-30 12:30:13,790 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:30:13,792 - INFO - Inserted 25 chunks successfully in 15.42 seconds
+2025-07-30 12:30:13,793 - INFO - Inserting batch 276 with 25 chunks
+2025-07-30 12:30:28,978 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:30:28,979 - INFO - Inserted 25 chunks successfully in 15.19 seconds
+2025-07-30 12:30:28,979 - INFO - Inserting batch 277 with 25 chunks
+2025-07-30 12:30:46,447 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:30:46,449 - INFO - Inserted 25 chunks successfully in 17.47 seconds
+2025-07-30 12:30:46,450 - INFO - Inserting batch 278 with 25 chunks
+2025-07-30 12:30:55,916 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 400 Bad Request"
+2025-07-30 12:30:55,917 - ERROR - Batch insert error: {'message': "Embedding API error: Operation timed out after 5002 milliseconds with 0 bytes received (Input: If\tyou're\trunning\tPPC\tfor\ta\tpink\tvariation,\tand\tthe\tmost\tpopular\tone\tis\tthe\tgray\tor\tthe\tblack,\nyour\tconversion\trate\twill\tappear\tbetter\tbecause\tpeople\twho\tclick\ton\tit\tdefinitely\twant\tthe\tpink\none,\tbut\tyou're\tgoing\tto\tget\tless\tclicks.\tSo\tyou\tclick\tthrough\trates\tlower,\tsignificantly\tlower.\tAnd\nwhat\thappens\tis\tif\tyou're\trunning\ta\tbunch\tof\tPPC\tto\tthat\tpink\tone\tand\tyour\tpink\tone\tstarts\nshowing\tup\ton\tthe\tmain\tlisting,\tnow\tyou're\tcapping\tyour\torganic\trankability.\nSo\tyou\tthought\tyour\tPPC\twas\tdoing\twell\tbecause\tit's\tconverting\twell\tand\tit's\tperforming\twell.\nBut\tit's\tonly\tperforming\twell\tbecause\tpeople\twho\tclick\ton\tthe\tpink\tjust,\tthey\treally\twant\tthe\npink,\tright?\tAt\ta\thigher\tpercentage\tthan\tpeople\tthat\tare\tshopping.\tBut\tso\tif\tyou\tonly\tlooked\tat\nthe\tdata,\tit\twould\tbe\tmisleading\tif\tyou\tdidn't\talso\tlook\tat\tthe\tclick\tthrough\trate\tand\tthe\nopportunity\tcost\tof\thaving\tthe\tpink\tone\tshow\tup\tversus\tthe\tblack\tone\tor\tthe\tgray\tone\tor\nwhatever., Model: text-embedding-3-small)", 'code': 'P0001', 'hint': None, 'details': None}
+2025-07-30 12:31:13,274 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:31:13,276 - INFO - Inserted 25 chunks successfully in 13.35 seconds
+2025-07-30 12:31:13,276 - INFO - Inserting batch 279 with 25 chunks
+2025-07-30 12:31:28,140 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:31:28,142 - INFO - Inserted 25 chunks successfully in 14.87 seconds
+2025-07-30 12:31:28,142 - INFO - Inserting batch 280 with 25 chunks
+2025-07-30 12:31:45,562 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:31:45,564 - INFO - Inserted 25 chunks successfully in 17.42 seconds
+2025-07-30 12:31:45,564 - INFO - Inserting batch 281 with 25 chunks
+2025-07-30 12:32:04,218 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:32:04,220 - INFO - Inserted 25 chunks successfully in 18.66 seconds
+2025-07-30 12:32:04,220 - INFO - Inserting batch 282 with 25 chunks
+2025-07-30 12:32:20,121 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:32:20,123 - INFO - Inserted 25 chunks successfully in 15.90 seconds
+2025-07-30 12:32:20,123 - INFO - Inserting batch 283 with 4 chunks
+2025-07-30 12:32:22,186 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/documents?columns=%22metadata%22%2C%22content%22 "HTTP/2 201 Created"
+2025-07-30 12:32:22,187 - INFO - Inserted 4 chunks successfully in 2.06 seconds
+2025-07-30 12:32:22,187 - INFO - Inserted 7054 chunks into documents table
+2025-07-30 12:32:22,188 - INFO - Ingestion complete. Verify at https://supabase.com
+2025-07-30 12:45:25,922 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 12:45:32,981 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 12:46:05,050 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 12:46:05,106 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 12:46:05,662 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-30 12:46:05,664 - ERROR - Unexpected error for 'What are the key KPIs and benchmarks for client campaigns, and how do we optimize for them?': Error code: 401 - {'error': {'message': 'Incorrect API key provided: REDACTED_KEY********************************************************************************************************************************************************ziQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-30 12:46:05,849 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 12:46:28,591 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 12:46:31,813 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 12:46:31,879 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 12:46:32,240 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-30 12:46:32,241 - ERROR - Unexpected error for 'What are the key KPIs and benchmarks for client campaigns, and how do we optimize for them?': Error code: 401 - {'error': {'message': 'Incorrect API key provided: REDACTED_KEY********************************************************************************************************************************************************ziQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-30 12:46:32,407 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:11:35,295 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:11:39,902 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.sea&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:11:43,538 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:11:45,842 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:11:45,902 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 13:11:46,442 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-30 13:11:46,443 - ERROR - Unexpected error for 'hi
+': Error code: 401 - {'error': {'message': 'Incorrect API key provided: REDACTED_KEY********************************************************************************************************************************************************ziQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-30 13:11:46,693 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:49:45,909 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:49:53,274 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:50:48,301 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 13:50:48,320 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:50:54,244 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:50:55,004 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:50:55,285 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-30 13:50:55,288 - INFO - Retrieved 5 documents for query: strategic partnerships with product photographers
+2025-07-30 13:50:56,022 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:50:56,484 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-30 13:50:56,486 - INFO - Retrieved 5 documents for query: strategic partnerships with videographers
+2025-07-30 13:50:56,883 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:50:57,080 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-30 13:50:57,083 - INFO - Retrieved 5 documents for query: strategic partnerships with Amazon experts
+2025-07-30 13:50:57,853 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:51:03,565 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history "HTTP/2 201 Created"
+2025-07-30 13:51:03,569 - INFO - Processed question: What strategic partnerships or alliances (e.g., with product photographers, videographers, or Amazon experts) can we develop? for user: seanfatal778@gmail.com
+2025-07-30 13:51:03,746 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:51:43,272 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:51:53,715 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:52:03,583 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 13:52:03,668 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 13:52:05,856 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:52:06,464 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:52:06,681 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-30 13:52:06,684 - INFO - Retrieved 5 documents for query: Product Photographers: Collaborating with product photographers can enhance the visual appeal of your listings. This can be crucial for attracting customers on platforms like Amazon.
+2025-07-30 13:52:06,937 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 13:52:07,148 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-30 13:52:07,149 - INFO - Retrieved 5 documents for query: enhance the visual appeal of your listings Amazon product photographers
+2025-07-30 13:52:07,918 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 13:52:18,531 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history "HTTP/2 201 Created"
+2025-07-30 13:52:18,532 - INFO - Processed question: Can  you elaborate on -- Product Photographers: Collaborating with product photographers can enhance the visual appeal of your listings. This can be crucial for attracting customers on platforms like Amazon.
+ for user: seanfatal778@gmail.com
+2025-07-30 13:52:18,714 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.seanfatal778%40gmail.com&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 15:11:25,731 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 15:11:33,923 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 15:11:33,979 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.default_user&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 15:11:35,059 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-30 15:11:35,061 - ERROR - Unexpected error for 'hello, what is ppc
+': Error code: 401 - {'error': {'message': 'Incorrect API key provided: REDACTED_KEY********************************************************************************************************************************************************ziQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-30 15:11:35,293 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 15:14:59,548 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 15:15:07,338 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 15:15:07,416 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.default_user&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 15:15:07,897 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-30 15:15:07,899 - ERROR - Unexpected error for 'what is amazon ppc?
+': Error code: 401 - {'error': {'message': 'Incorrect API key provided: REDACTED_KEY********************************************************************************************************************************************************ziQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-30 15:15:08,165 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 15:17:36,366 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 15:17:52,858 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.default_user&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-30 15:17:52,870 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-30 15:17:54,600 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 15:17:55,897 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 15:17:56,140 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-30 15:17:56,143 - INFO - Retrieved 5 documents for query: ppc amazon advertising
+2025-07-30 15:17:57,559 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 15:17:58,114 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 15:17:58,322 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-30 15:17:58,324 - INFO - Retrieved 5 documents for query: ppc amazon advertising
+2025-07-30 15:17:58,615 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-30 15:17:58,820 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-30 15:17:58,822 - INFO - Retrieved 5 documents for query: amazon advertising
+2025-07-30 15:17:59,477 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-30 15:18:03,263 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history "HTTP/2 201 Created"
+2025-07-30 15:18:03,264 - INFO - Processed question: explain what ppc is in relation to amazon advertising
+ for user: default_user
+2025-07-30 15:18:03,476 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 09:40:18,645 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 09:40:43,807 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 09:40:43,887 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.default_user&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-31 09:40:44,479 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-31 09:40:44,480 - ERROR - Unexpected error for 'what are the team essential in order to run a amazon advertising company?
+': Error code: 401 - {'error': {'message': 'Incorrect API key provided: REDACTED_KEY********************************************************************************************************************************************************ziQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-31 09:40:44,700 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 09:41:27,440 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 09:43:34,123 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 09:43:53,797 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 09:43:53,856 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.default_user&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-31 09:43:55,043 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-31 09:43:56,276 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-07-31 09:43:56,923 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/rpc/match_documents?limit=5 "HTTP/2 200 OK"
+2025-07-31 09:43:56,926 - INFO - Retrieved 5 documents for query: essential to run an amazon advertising company
+2025-07-31 09:43:57,342 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-31 09:44:03,872 - INFO - HTTP Request: POST https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history "HTTP/2 201 Created"
+2025-07-31 09:44:03,873 - INFO - Processed question: what are the essential to run an amazon advertising company, list 5
+ for user: default_user
+2025-07-31 09:44:04,073 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 09:44:28,396 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 09:46:12,325 - ERROR - Supabase init failed: Invalid URL
+2025-07-31 09:46:29,172 - ERROR - Supabase init failed: Invalid URL
+2025-07-31 09:46:29,250 - ERROR - Supabase init failed: Invalid URL
+2025-07-31 09:46:29,251 - ERROR - Unexpected error for 'what is ppc
+': Supabase init failed: Invalid URL
+2025-07-31 09:46:29,253 - ERROR - Supabase init failed: Invalid URL
+2025-07-31 10:25:43,134 - ERROR - Supabase init failed: Invalid URL
+2025-07-31 10:25:57,446 - ERROR - Supabase init failed: Invalid URL
+2025-07-31 10:25:57,555 - ERROR - Supabase init failed: Invalid URL
+2025-07-31 10:25:57,556 - ERROR - Unexpected error for 'hello': Supabase init failed: Invalid URL
+2025-07-31 10:25:57,560 - ERROR - Supabase init failed: Invalid URL
+2025-07-31 10:44:05,122 - INFO - Supabase URL: https://npkqpsxhllobpwdzxmcc.supabase.co
+2025-07-31 10:44:05,123 - INFO - Supabase Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5wa3Fwc3hobGxvYnB3ZHp4bWNjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MjYxMjQwNSwiZXhwIjoyMDY4MTg4NDA1fQ.7k5ryStmsJgt1D1rBlI5l3cnaYgyyjIQYX71upWNEEA
+2025-07-31 10:44:05,123 - INFO - Pooler URL: postgres://postgres:Reezmedia12345@db.npkqpsxhllobpwdzxmcc.supabase.co:6543/postgres
+2025-07-31 10:44:06,083 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 10:44:32,928 - INFO - Supabase URL: https://npkqpsxhllobpwdzxmcc.supabase.co
+2025-07-31 10:44:32,928 - INFO - Supabase Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5wa3Fwc3hobGxvYnB3ZHp4bWNjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MjYxMjQwNSwiZXhwIjoyMDY4MTg4NDA1fQ.7k5ryStmsJgt1D1rBlI5l3cnaYgyyjIQYX71upWNEEA
+2025-07-31 10:44:32,928 - INFO - Pooler URL: postgres://postgres:Reezmedia12345@db.npkqpsxhllobpwdzxmcc.supabase.co:6543/postgres
+2025-07-31 10:44:33,046 - INFO - Supabase URL: https://npkqpsxhllobpwdzxmcc.supabase.co
+2025-07-31 10:44:33,047 - INFO - Supabase Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5wa3Fwc3hobGxvYnB3ZHp4bWNjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc1MjYxMjQwNSwiZXhwIjoyMDY4MTg4NDA1fQ.7k5ryStmsJgt1D1rBlI5l3cnaYgyyjIQYX71upWNEEA
+2025-07-31 10:44:33,047 - INFO - Pooler URL: postgres://postgres:Reezmedia12345@db.npkqpsxhllobpwdzxmcc.supabase.co:6543/postgres
+2025-07-31 10:44:33,182 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"
+2025-07-31 10:44:33,251 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources&user_id=eq.default_user&order=timestamp.desc&limit=5 "HTTP/2 200 OK"
+2025-07-31 10:44:34,843 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-07-31 10:44:34,844 - ERROR - Unexpected error for 'what are nich topics that amazon advertising owners should be aware of?': Error code: 401 - {'error': {'message': 'Incorrect API key provided: REDACTED_KEY********************************************************************************************************************************************************ziQA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-07-31 10:44:35,083 - INFO - HTTP Request: GET https://npkqpsxhllobpwdzxmcc.supabase.co/rest/v1/chat_history?select=question%2Canswer%2Csources%2Ctimestamp&user_id=eq.default_user&order=timestamp.desc&limit=10 "HTTP/2 200 OK"

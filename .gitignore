@@ -1,0 +1,23 @@
+Python
+
+pycache/ *.pyc *.pyo *.pyd .Python venv_310/ *.egg-info/ *.egg
+
+Environment
+
+.env *.env
+
+Logs and data
+
+ingestion.log chat_history.json documents/backup_problematic/*.pdf
+
+IDE
+
+.vscode/ .idea/ *.sublime-project *.sublime-workspace
+
+Include PDFs
+
+!documents/*.pdf
+
+
+
+documents/documents_backup.csv
