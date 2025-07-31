@@ -1,4 +1,4 @@
-pythonimport streamlit as st
+import streamlit as st
 import logging
 import os
 from dotenv import load_dotenv
