@@ -126,4 +126,6 @@ def query_agent(question: str, user_id: str = "default_user") -> dict:
 if __name__ == "__main__":
     question = input("Enter your question: ")
     result = query_agent(question)
-    print(f"Sources:\n{'\n'.join(result['sources'])}\n\nAnswer:\n{result['answer']}")
+    sources_str = "\n".join(result['sources'])
+    answer_str = result['answer']
+    print(f"Sources:\n{sources_str}\n\nAnswer:\n{answer_str}")
