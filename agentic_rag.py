@@ -20,6 +20,7 @@ logger = logging.getLogger(__name__)
 
 load_dotenv()
 
+# Updated System Prompt to meet requirements
 SYSTEM_PROMPT = """You are an evidentiary assistant. Follow these steps:
 1. Review all available interactions from chat_history to understand context.
 
@@ -64,9 +65,10 @@ def extract_preview(output: str, answer: str) -> str:
                 return preview[:200] + "..." if len(preview) > 200 else preview
     return ""
 
-def query_agent(question: str, user_id: str, chat_history: list) -> dict:
-    """Query the agent and store result"""
+def query_agent(question: str, user_id: str = "default_user", chat_history: list = []) -> dict:
+    """Query the agent and store result in chat history"""
     try:
+        # Retrieve chat history
         supabase = get_supabase()
         chat_history_messages = chat_history
         chat_history_messages = [
@@ -75,36 +77,38 @@ def query_agent(question: str, user_id: str, chat_history: list) -> dict:
             for msg in chat_history_messages
         ]
 
+        # Query agent
         agent = create_tool_calling_agent(get_llm(), [retrieve], get_prompt())
         executor = AgentExecutor(agent=agent, tools=[retrieve], verbose=True)
-
         result = executor.invoke({
             "input": question,
             "chat_history": chat_history_messages,
-            "retrieved_documents": "",
+            "retrieved_documents": "",  # Will be populated by retrieve tool
         })
-
+        
+        # Parse output
         output = result.get("output", "No response from agent")
         sources = extract_sources(output)
         answer = extract_answer(output)
         preview = extract_preview(output, answer)
-
+        
+        # Store in chat history
         supabase.table("chat_history").insert({
             "user_id": user_id,
             "question": question,
             "answer": answer,
-            "sources": sources,
+            "sources": sources,  # Store as list directly
             "timestamp": datetime.utcnow().isoformat()
         }).execute()
-
+        
         logger.info(f"Processed question: {question} for user: {user_id}")
         return {"sources": sources, "answer": answer, "preview": preview}
 
     except SupabaseException as e:
-        logger.error(f"Supabase error for '{question}': {str(e)}")
+        logger.error(f"Supabase client error for '{question}': {str(e)}")
         return {"sources": ["Error retrieving sources"], "answer": f"Supabase error: {str(e)}", "preview": ""}
     except APIError as e:
-        logger.error(f"Database error for '{question}': {str(e)}")
+        logger.error(f"Database query error for '{question}': {str(e)}")
         return {"sources": ["Error retrieving sources"], "answer": f"Database error: {str(e)}", "preview": ""}
     except Exception as e:
         logger.error(f"Unexpected error for '{question}': {str(e)}")
@@ -112,7 +116,7 @@ def query_agent(question: str, user_id: str, chat_history: list) -> dict:
 
 if __name__ == "__main__":
     question = input("Enter your question: ")
-    result = query_agent(question, "default_user", [])
+    result = query_agent(question)
     print(f"Answer:\n{result['answer']}")
     if result["sources"]:
         print("Sources:\n" + "\n".join(result["sources"]))
