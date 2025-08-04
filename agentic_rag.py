@@ -6,10 +6,9 @@ from dotenv import load_dotenv
 from langchain.agents import AgentExecutor, create_tool_calling_agent
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage, AIMessage
-from core import get_llm, retrieve_stream, get_supabase
+from core import get_llm, retrieve, get_supabase
 from supabase import SupabaseException
 from postgrest.exceptions import APIError
-import asyncio
 
 # Configure logging
 logging.basicConfig(
@@ -27,7 +26,7 @@ SYSTEM_PROMPT = """You are an evidentiary assistant. Follow these steps:
 2. Retrieve documents using the provided tool and list EXACT sources in this format:
 [Source: filename.pdf (Page X, Year YYYY)]
 
-3. Provide a concise, streaming answer using ONLY these sources and relevant chat_history, sentence by sentence. Compare nuances or updates across years if multiple sources apply, explaining differences. If no relevant sources are found, switch to general Amazon expertise and note: 'Using general Amazon expertise as transcripts are unavailable.'
+3. Provide a concise answer using ONLY these sources and relevant chat_history. Compare nuances or updates across years if multiple sources apply, explaining differences. If no relevant sources are found, switch to general Amazon expertise and note: 'Using general Amazon expertise as transcripts are unavailable.'
 
 Sources available:
 {retrieved_documents}"""
@@ -65,8 +64,8 @@ def extract_preview(output: str, answer: str) -> str:
                 return preview[:200] + "..." if len(preview) > 200 else preview
     return ""
 
-async def query_agent_stream(question: str, user_id: str, chat_history: list) -> list:
-    """Query the agent with streaming and store result"""
+def query_agent(question: str, user_id: str, chat_history: list) -> dict:
+    """Query the agent and store result"""
     try:
         supabase = get_supabase()
         chat_history_messages = chat_history
@@ -76,10 +75,10 @@ async def query_agent_stream(question: str, user_id: str, chat_history: list) ->
             for msg in chat_history_messages
         ]
 
-        agent = create_tool_calling_agent(get_llm(), [retrieve_stream], get_prompt())
-        executor = AgentExecutor(agent=agent, tools=[retrieve_stream], verbose=True)
+        agent = create_tool_calling_agent(get_llm(), [retrieve], get_prompt())
+        executor = AgentExecutor(agent=agent, tools=[retrieve], verbose=True)
 
-        result = await executor.ainvoke({
+        result = executor.invoke({
             "input": question,
             "chat_history": chat_history_messages,
             "retrieved_documents": "",
@@ -90,16 +89,6 @@ async def query_agent_stream(question: str, user_id: str, chat_history: list) ->
         answer = extract_answer(output)
         preview = extract_preview(output, answer)
 
-        chunks = []
-        for sentence in answer.split(". "):
-            if sentence:
-                chunks.append({"answer": sentence + ". "})
-                await asyncio.sleep(0.1)  # Simulate streaming delay
-        if sources:
-            chunks.append({"sources": sources})
-        if preview:
-            chunks.append({"preview": preview})
-
         supabase.table("chat_history").insert({
             "user_id": user_id,
             "question": question,
@@ -109,24 +98,23 @@ async def query_agent_stream(question: str, user_id: str, chat_history: list) ->
         }).execute()
 
         logger.info(f"Processed question: {question} for user: {user_id}")
-        return chunks
+        return {"sources": sources, "answer": answer, "preview": preview}
 
     except SupabaseException as e:
         logger.error(f"Supabase error for '{question}': {str(e)}")
-        return [{"answer": f"Supabase error: {str(e)}", "sources": ["Error retrieving sources"]}]
+        return {"sources": ["Error retrieving sources"], "answer": f"Supabase error: {str(e)}", "preview": ""}
     except APIError as e:
         logger.error(f"Database error for '{question}': {str(e)}")
-        return [{"answer": f"Database error: {str(e)}", "sources": ["Error retrieving sources"]}]
+        return {"sources": ["Error retrieving sources"], "answer": f"Database error: {str(e)}", "preview": ""}
     except Exception as e:
         logger.error(f"Unexpected error for '{question}': {str(e)}")
-        return [{"answer": f"Unexpected error: {str(e)}", "sources": ["Error retrieving sources"]}]
+        return {"sources": ["Error retrieving sources"], "answer": f"Unexpected error: {str(e)}", "preview": ""}
 
 if __name__ == "__main__":
     question = input("Enter your question: ")
-    loop = asyncio.get_event_loop()
-    result = loop.run_until_complete(query_agent_stream(question, "default_user", []))
-    for chunk in result:
-        if "answer" in chunk:
-            print(chunk["answer"])
-        if "sources" in chunk:
-            print("Sources:\n" + "\n".join(chunk["sources"]))
+    result = query_agent(question, "default_user", [])
+    print(f"Answer:\n{result['answer']}")
+    if result["sources"]:
+        print("Sources:\n" + "\n".join(result["sources"]))
+    if result["preview"]:
+        print(f"Preview:\n{result['preview']}")
