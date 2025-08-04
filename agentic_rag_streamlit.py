@@ -6,7 +6,7 @@ from supabase import create_client, Client, SupabaseException
 from postgrest.exceptions import APIError
 import openai
 from openai import AuthenticationError
-from agentic_rag import query_agent_stream
+from agentic_rag import query_agent
 
 # Security Change 1: Set logging to WARNING level
 logging.basicConfig(level=logging.WARNING)
@@ -58,38 +58,22 @@ def main():
 
 def process_question(question: str, user_id: str):
     placeholder = st.empty()
-    full_answer = ""
-    full_sources = []
-    preview_content = ""
+    result = query_agent(question, user_id, st.session_state.chat_history)
+    full_answer = result["answer"]
+    full_sources = result["sources"]
+    preview_content = result.get("preview", "")
 
-    try:
-        for chunk in query_agent_stream(question, user_id, st.session_state.chat_history):
-            if "answer" in chunk:
-                full_answer += chunk["answer"]
-            if "sources" in chunk:
-                full_sources = chunk["sources"]
-            if "preview" in chunk:
-                preview_content = chunk["preview"]
-            placeholder.markdown(f"**Question:** {question}\n**Answer:** {full_answer}\n**Sources Cited:** {', '.join(full_sources) if full_sources else 'Loading...'}\n**Preview:** {preview_content if preview_content else 'Loading...'}")
-        
-        st.session_state.chat_history.append({"role": "user", "content": question})
-        st.session_state.chat_history.append({"role": "assistant", "content": full_answer, "sources": full_sources, "preview": preview_content})
-        
-        with st.expander("💬 Latest Answer", expanded=True):
-            st.markdown(f"**Question:** {question}")
-            st.markdown(f"**Answer:**\n{full_answer}")
-            st.markdown(f"**Sources Cited:**\n{', '.join(full_sources) if full_sources else 'No sources'}")
-            if preview_content:
-                st.markdown(f"**Preview of Evidence:**\n{preview_content}")
-
-    except AuthenticationError as e:
-        st.error("❌ Invalid OpenAI API key")
-        logger.critical("OpenAI authentication failed: %s", str(e))
-    except SupabaseException as e:
-        st.error(f"🔌 Database error: {str(e)}")
-    except Exception as e:
-        st.error(f"⚠️ Unexpected error: {str(e)}")
-        logger.exception("Processing failed: %s", str(e))
+    placeholder.markdown(f"**Question:** {question}\n**Answer:** {full_answer}\n**Sources Cited:** {', '.join(full_sources) if full_sources else 'Loading...'}\n**Preview:** {preview_content if preview_content else 'Loading...'}")
+    
+    st.session_state.chat_history.append({"role": "user", "content": question})
+    st.session_state.chat_history.append({"role": "assistant", "content": full_answer, "sources": full_sources, "preview": preview_content})
+    
+    with st.expander("💬 Latest Answer", expanded=True):
+        st.markdown(f"**Question:** {question}")
+        st.markdown(f"**Answer:**\n{full_answer}")
+        st.markdown(f"**Sources Cited:**\n{', '.join(full_sources) if full_sources else 'No sources'}")
+        if preview_content:
+            st.markdown(f"**Preview of Evidence:**\n{preview_content}")
 
 def display_chat_history(user_id: str):
     try:
