@@ -8,7 +8,6 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_community.vectorstores import SupabaseVectorStore
 from langchain_core.tools import tool
 from tenacity import retry, stop_after_attempt, wait_exponential
-import asyncio
 
 # Configure logging
 logging.basicConfig(
@@ -53,13 +52,12 @@ def get_llm():
     return ChatOpenAI(
         model="gpt-4o-mini",
         openai_api_key=os.getenv("OPENAI_API_KEY"),
-        temperature=0.1,
-        streaming=True
+        temperature=0.1
     )
 
 @tool
 @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=4, max=10))
-async def retrieve_stream(query: str):
+def retrieve(query: str):
     """Retrieve documents from Supabase with exact source matching and relevant preview"""
     try:
         supabase = get_supabase()
@@ -99,3 +97,4 @@ async def retrieve_stream(query: str):
     except Exception as e:
         logger.error(f"Unexpected retrieval error for query '{query}': {str(e)}")
         return f"Error retrieving documents: {str(e)}"
+Additional Dependencies
