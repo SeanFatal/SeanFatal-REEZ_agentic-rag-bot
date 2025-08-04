@@ -69,11 +69,13 @@ def retrieve(query: str):
             query_name="match_documents"
         )
         
+        # Retrieve top 5 relevant documents
         docs = vector_store.similarity_search(query, k=5)
         if not docs:
             logger.info(f"No documents found for query: {query}")
             return "No relevant documents found."
-
+        
+        # Format sources with year
         sources = [
             f"[Source: {doc.metadata['source_pdf']} (Page {doc.metadata['page']}, Year {doc.metadata.get('year', 'Unknown')})]"
             for doc in docs
@@ -89,12 +91,11 @@ def retrieve(query: str):
         logger.info(f"Retrieved {len(sources)} documents for query: {query}")
         return "\n".join(sources) + "\n" + preview
     except SupabaseException as e:
-        logger.error(f"Supabase error for query '{query}': {str(e)}")
+        logger.error(f"Supabase client error for query '{query}': {str(e)}")
         return f"Error retrieving documents: {str(e)}"
     except APIError as e:
-        logger.error(f"Database error for query '{query}': {str(e)}")
+        logger.error(f"Database query error for query '{query}': {str(e)}")
         return f"Error retrieving documents: {str(e)}"
     except Exception as e:
         logger.error(f"Unexpected retrieval error for query '{query}': {str(e)}")
         return f"Error retrieving documents: {str(e)}"
-Additional Dependencies
